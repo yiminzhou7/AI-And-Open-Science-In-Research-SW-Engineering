@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10657570.svg)](https://doi.org/10.5281/zenodo.10657570)
+
 # AI-And-Open-Science-In-Research-SW-Engineering
 Repository for Artificial Intelligence and Open Science In Research Software Engineering deliverables
 
