@@ -1,0 +1,10 @@
+license: Apache-2.0
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Zhou"
+  given-names: "Yimin"
+title: "Text Analysis with Grobid"
+version: 1.0.0
+date-released: 2024-02-14
+url: "https://github.com/yiminzhou7/AI-And-Open-Science-In-Research-SW-Engineering"
