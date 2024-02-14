@@ -2,35 +2,18 @@ import os
 import requests
 from bs4 import BeautifulSoup
 
-def grobid_response(pdf_path):
-    """
-    
-
-    INPUT:
-    - articles_folder(str): Path to the folder containing the PDF files.
-
-    OUTPUT:
-    - Content of the response of Grobid.
-    """
-    # URL of the Grobid API to extract the abstract
-    grobid_url = 'http://localhost:8070/api/processFulltextDocument'
-    with open(pdf_path, 'rb') as file:
-        # Create the request to send to the Grobid API
-        files = {'input': (pdf_path, file, 'application/pdf')}
-        # Send the request to the Grobid API
-        response = requests.post(grobid_url, files=files)
-        if response.status_code == 200:
-            # Parse the XML response from Grobid
-            soup = BeautifulSoup(response.text, 'xml')
-            return soup
-        else:
-            print(f"Error: Failed to retrieve content from {pdf_path}. Status code: {response.status_code}")
-            return None
-        
-
-
 
 def grobid_responses(articles_folder):
+    """
+    Extracts the full-text content of PDF files in the specified folder using Grobid.
+
+    INPUT:
+    - articles_folder (str): path to the folder containing the PDF files.
+
+    OUTPUT:
+    - List ofBeautifulSoup objects representing the XML responses from Grobid.
+    """
+    
     grobid_url = 'http://localhost:8070/api/processFulltextDocument'
     # Verify the path
     if not os.path.isdir(articles_folder):
