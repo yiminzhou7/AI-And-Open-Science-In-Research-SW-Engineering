@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Artificial Intelligence in the Health: Applications in Imaging, Personalized Medicine and Prosthetics</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2022-06-27">27 June 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Ege</forename><surname>Hurturk</surname></persName>
+							<email>ege.hurturk@gmail.com</email>
+						</author>
+						<title level="a" type="main">Artificial Intelligence in the Health: Applications in Imaging, Personalized Medicine and Prosthetics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2022-06-27">27 June 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">EF6642E64C1A8CE7F48CD4424B269765</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.2" ident="GROBID" when="2024-02-15T17:37+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Healthcare</term>
+					<term>Medical Imaging</term>
+					<term>Artificial Intelligence</term>
+					<term>Prosthetics</term>
+					<term>Deep Learning</term>
+					<term>Personalized Medicine</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This research paper explores the current state and the potential applications of artificial intelligence (AI) in healthcare. The article focuses on three main applications of AI in healthcare: medical imaging, personalized medicine, and prosthetics. Medical Imaging started with the discovery of the X-ray and later developed with the introduction of nuclear medicine. With the rise of AI, its applications flourished within medical imaging, helping radiologists identify and diagnose medical conditions, analyzing medical images in seconds, and studying the brain. In personalized medicine, Artificial intelligence offers specific treatments for patients, such as personalized treatment for liver cancer, considering the patient's background. AI also analyzes large datasets to develop patient treatment plans and streamlines the clinical decision process. Finally, The paper delves into AI's applications in prosthetics, including the development of intelligent artificial limbs powered by machine learning algorithms analyzing various signals throughout the body. The research paper concludes that AI is a revolutionary tool that assists the healthcare industry by helping researchers in medical imaging, streamlining clinical decision processes with personalized medicine</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>Artificial intelligence (AI) is a crucial technology incorporated into our everyday lives, and AI can accomplish many things <ref type="bibr" target="#b13">[14]</ref>. AI includes Machine Learning, Deep Learning, and other various subfields. Deep Learning focuses on image recognition, text analysis, and other aspects, while machine learning uses more of a statistical and traditional approach. Deep Learning is heavily used in the healthcare sector <ref type="bibr" target="#b31">[32]</ref>. The term AI is first used by McCarthy, one of the early inventors of AI <ref type="bibr" target="#b42">[43]</ref>. Alan Turing was the one who was concerned with the question "Can machines think" in his paper dated 1950 called "Can machines think? <ref type="bibr" target="#b36">[37]</ref>" Image processing is one field of deep learning where convolutional neural networks (CNNs) are used to analyze and recognize images. Deep Learning has other fields, such as NLP (Natural Language Processing), which is concerned with analyzing textual and unstructured data, and RL (Reinforcement Learning), which is primarily concerned with simulations. Machine Learning uses statistical approaches to designing algorithms to achieve realworld tasks. Currently, the AI in use is referred to as narrow or weak AI which is the type that can be designated to ML, DL, and other subsets of AI <ref type="bibr" target="#b15">[16]</ref>.</p><p>The vision is to be able to, in the future, produce a type of AI that is more intelligent than the current forms in use <ref type="bibr" target="#b22">[23]</ref>. These types are known as strong or super AI and are more hypothetical than real. These types of AI will be as or even more intelligent than humans and will have the capacity to express themselves as humans do with the related emotional expressions and sense of autonomy <ref type="bibr" target="#b22">[23]</ref>. The world of health and medicine is also dependent on these narrow forms of AI, but they are continually being improved and developed, not necessarily in the hopes of achieving strong or super AI in this case, but to achieve improvement in health and medical services <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b24">25]</ref>. Today the health and medicine sector benefits tremendously from advances in AI with the use of AI-enabled medical imaging devices, artificial limbs, and brain-machine devices as well as those used for surgery <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b7">8]</ref>. No literature about AI, however, in any field of study comes without mentioning the drawbacks of AI systems. In the area of health and medicine, the main drawbacks come in the form of security and privacy as well as the potential for AI-enabled devices and machines to cause bodily harm to their users <ref type="bibr" target="#b12">[13]</ref>. This reveals issues of ethics and AI where there is also room for improvement. This paper wants to explicitly examine the role of AI in healthcare and its impact on imaging, personalized medicine, and prosthetic and brain devices as well as expose the ethical dilemmas that still prevail in these areas. Artificial intelligence is not a new technology and has been researched and developed since the early 1950s. John McCarthy, a pioneer in this field, is one of the first people to attempt to define AI <ref type="bibr" target="#b22">[23]</ref>. In his definition, he mentions that AI is "the science and engineering of making intelligent machines, especially intelligent computer programs" <ref type="bibr" target="#b22">[23]</ref>. McCarthy's definition of AI repeatedly uses the word "intelligent", which he does not further explain what it means or how it applies to computer programs <ref type="bibr" target="#b22">[23]</ref>. Alan Turing, another pioneer of AI, researches how intelligent a machine can be in his research questioning whether or not machines can think <ref type="bibr" target="#b22">[23]</ref>. This intelligent measure gave rise to the field of AI. Later in history, AI has been divided into two subcategories, Weak AI and Strong AI, which differ in their objectives and capabilities <ref type="bibr" target="#b22">[23]</ref>. Weak AI is a type of AI that focuses on solving specific problems, such as image detection, or voiceto-text translation <ref type="bibr" target="#b20">[21]</ref>. Strong AI, which includes Artificial General Intelligence, is broader in the sense that it is a theoretical form of AI where machines have the rationale of humans, in which they have self-awareness and the consciousness to solve problems and learn <ref type="bibr" target="#b22">[23]</ref>. Most of the applications of AI in today's world are included in Weak AI. The possibility of achieving strong AI is questioned among scientists and researchers, as some believe it is impossible to give machines the same capability and function as the human brain <ref type="bibr" target="#b48">[49]</ref>. The differences in the way machines and the human brain process information raise some ethical concerns. With the rapid development of AI, it is now being used in a multitude and diverse fields, including healthcare, education, and business <ref type="bibr" target="#b41">[42]</ref>. The many benefits of AI make it attractive and create a strong desire to apply AI to automate or solve difficulties. Yet, the rapid development of AI raises ethical problems <ref type="bibr" target="#b38">[39]</ref>. AI is considered to be a "black box", the term referring to the fact that it may become impossible to understand how a machine processes information <ref type="bibr" target="#b19">[20]</ref>. This may be hazardous, as scientists could not examine machines and their intelligence. The dataset on which the AI is trained is also a factor for ethical dilemmas <ref type="bibr" target="#b45">[46]</ref>. There are myriads of datasets in the computing world, and some of them may contain bias <ref type="bibr" target="#b19">[20]</ref>. Bias exists in 8 categories, namely, social bias, measurement bias, representation bias, label bias, algorithmic bias, evaluation bias, deployment bias, and feedback bias <ref type="bibr" target="#b16">[17]</ref>. Social bias occurs when the data contains bias that already exists in society before the machine learning model creation <ref type="bibr" target="#b16">[17]</ref>. A typical example of social bias is the gender imbalance in some work sectors: some are male-dominant and some are female-dominant <ref type="bibr" target="#b1">[2]</ref>. For instance, women make up a greater percentage of residents in medicine, specifically, pediatrics, medical genetics, genomics, dermatology, and gynecology <ref type="bibr" target="#b47">[48]</ref>. While, men make up a significant portion of the workforce in orthopedic surgery, neurological surgery, and radiology <ref type="bibr" target="#b47">[48]</ref>. Hence, if a machine learning model were to be trained to show images given a search label, and if the word "surgeon" is used as an input, most images of men would show up. Measurement bias is introduced when the researchers choose imperfect weights and proxies for the protected attributes, attributes such as age, religion, race, ethnicity, and gender that should be treated equally <ref type="bibr" target="#b16">[17]</ref>. This would result in a discriminant and faulty machine-learning model <ref type="bibr" target="#b16">[17]</ref>. Another type of bias is representation bias, which occurs when the input data does not represent the current circumstances of the relevant population when the machine learning model is deployed <ref type="bibr" target="#b16">[17]</ref>. For instance, one-time phenomena, such as natural disasters, can disrupt the input data by altering data about a homeowner and their financial or credit status <ref type="bibr" target="#b16">[17]</ref>. Label bias is introduced when the training data is assigned to the wrong labels which may result from ambiguity <ref type="bibr" target="#b16">[17]</ref>. For instance, differences in cultures may cause people from different traditions to label training images differently <ref type="bibr" target="#b16">[17]</ref>. A funerary ceremony in Western culture resonates with the color gray and sadness, whereas, in Ghana, dancing is the way to celebrate which may not be accurately reflected in the training labels. This may cause a computer scientist raised in Western culture to label a Ghanaian funeral as a parade instead of a funeral. The other 4 biases emerge when the model is trained falsely, or inappropriate technical considerations are taken when training the model, such as using an improper learning rate as seen in algorithmic bias, or using inappropriate evaluation techniques as seen in evaluation bias <ref type="bibr" target="#b16">[17]</ref>. Deployment bias is based on using a model in a different context or purpose than it is trained for <ref type="bibr" target="#b16">[17]</ref>. Lastly, feedback bias occurs when the output of a machine learning model is used as its input which can cause a small bias seen in the reinforcement of input <ref type="bibr" target="#b16">[17]</ref>. AI Algorithm design is a human-driven process, in which computer scientists collect data that reflect the real world, then train machine learning models to achieve real-world tasks <ref type="bibr" target="#b44">[45]</ref>. That is why bias is inevitable in data that resides in the real world. Yet, AI algorithms and models seem to become more effective at handling bias as years pass and computation power increases <ref type="bibr" target="#b25">[26]</ref>. The fact that bias is inevitable in AI models should not stop people from utilizing it to use it for a better cause, or to benefit their work sector <ref type="bibr" target="#b43">[44]</ref>. Healthcare is one such sector that needs AI. The capabilities and the power of AI are widespread, and healthcare is a sector that can leverage AI to maximize patient satisfaction or reduce the problems faced by specialists <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b27">28]</ref>. The three ways hospitals or clinics can utilize AI are boosting the pipeline of diagnosis of medical images, fostering personalized drug development, and producing prosthetics for people with disabilities. This paper investigates such applications and provides examples from the sector.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">AI for Imaging in Healthcare</head><p>Imaging is an important part of medical testing, examination, and resultant therapy. Imaging has been around for over a hundred years <ref type="bibr" target="#b3">[4]</ref>. According to Professor William G. Bradley, from the University of California San Diego radiology, the history of imaging begins with Roentgen's, a German engineer and physicist, discovery of the X-ray <ref type="bibr" target="#b8">[9]</ref>. He was awarded the first Nobel Prize in 1901 for his work on the Crookes tube, a ray tube that penetrates solids <ref type="bibr" target="#b0">[1]</ref>. Imaging began in 1895 with Roentgen's discovery of the X-ray. In the 1920s, fluoroscopy was added to X-rays which required patients to ingest a chemical that would help identify their diseases such as cancers <ref type="bibr" target="#b21">[22]</ref>. The innovation of X-ray contributed to other types of imaging processing techniques such as mammography and tomography <ref type="bibr" target="#b21">[22]</ref>. The basis of tomography depends on investigating the specific sections or slices of tissues which were adopted in later technologies such as CTs and MRIs which also run tomographic techniques <ref type="bibr" target="#b46">[47]</ref>. By the 1950s, nuclear medicine was introduced in medical imaging. In nuclear medicine, radioactive compounds are used instead of X-ray tubes. PETs and PET-CTs are examples of imaging that depend on nuclear imaging <ref type="bibr" target="#b14">[15]</ref>. Bradley further explains that, in the 1970s, ultrasound was introduced in imaging which uses sound waves instead of radiation <ref type="bibr" target="#b21">[22]</ref>. With advancements in computer technologies during the 1970s, MRIs came to life as an imaging alternative <ref type="bibr" target="#b29">[30]</ref>. MRIs, like ultrasounds, do not use ionizing radiation, and during the 1980s and 1990s, they operated using superconducting magnets <ref type="bibr" target="#b6">[7]</ref>. The magnetic field of MRI, according to Bradley, causes a shift at the molecular level of the body such as hydrogen nuclei. The last type of imaging Bradley explains is functional MRI (fMRI), which is a magnetic form of EEG (electroencephalography) which uses electrical signals which are primarily used for brain imaging <ref type="bibr" target="#b17">[18]</ref>. MEG is not a preferred imaging technique as the signals interfere with the scalp and the muscles around the skull <ref type="bibr" target="#b10">[11]</ref>. fMRI, argues Bradley, is a better alternative as it looks at the blood flow <ref type="bibr" target="#b9">[10]</ref>. Before the 1970s, there was a lack of computational power and digital technologies in the world of medicine <ref type="bibr" target="#b37">[38]</ref>. Even though computer scientists such as Alan Turing were questioning artificial intelligence during the 1950s, much of the development of artificial intelligence was missing until a decade ago <ref type="bibr" target="#b2">[3]</ref>. Artificial Intelligence technologies existed prior to a decade but in the last 10-15 years, the applications of artificial intelligence flourished due to developments in software, computational technologies, big data, and IoT <ref type="bibr" target="#b2">[3]</ref>. Much has been developed in imaging. Stanford's new algorithm CheXNeXt, which was developed in 2018, reads chest X-ray images in a matter of seconds <ref type="bibr" target="#b39">[40]</ref>. Assistant Professor Matthew Lungren and his team of AI researchers state that this state-of-art algorithm can recognize more than a dozen chest diseases <ref type="bibr" target="#b5">[6]</ref>. According to their studies and results, out of 14 different pathogens, 10 of the algorithm's predictions matched with the radiologists, it underperformed in 3 instances and outperformed radiologists in one <ref type="bibr" target="#b5">[6]</ref>. Previous models have been developed to identify medical images, but none of them could identify more than one disease. The importance of CheXNeXt comes from the fact that the algorithm can identify more than a dozen diseases, not just one <ref type="bibr" target="#b5">[6]</ref>. According to Matthew Lungren, the urge to deliver the best algorithm for chest X-ray diagnostics increased a lot when NIH publicly released more than hundreds of thousands of X-ray images <ref type="bibr" target="#b5">[6]</ref>. The radiologists take approximately 3 hours to diagnose the disease from a chest X-ray image, whereas the AI diagnoses all pathologies in about 90 seconds <ref type="bibr" target="#b5">[6]</ref>. Lungren's team also suggests that the algorithm could be used as a step where primary doctors can consult and verify their predictions <ref type="bibr" target="#b5">[6]</ref>. Another advancement came from Stanford as well. Sebastian Thurn, an adjunct professor in the Stanford AI Laboratory, and their team developed a deep-learning model to diagnose skin images <ref type="bibr" target="#b26">[27]</ref>. Skin cancer diagnosis should not be a time and money-consuming task. Yet, some possible scenarios exist when people live too far away from the nearest doctor, or could not cover the fee for the service. An option to receive a diagnosis from your phone, with a click-away instead of miles away, could be life-saving especially when the conditions to visit a doctor become rough <ref type="bibr" target="#b26">[27]</ref>. With universal healthcare in mind, Stanford researchers gathered a big enough dataset consisting of 130,000 images of skin cancer, representing over 2000 different diseases, and trained a deep neural network on this dataset <ref type="bibr" target="#b26">[27]</ref>. The research team gathered their data from multiple clinical sources as well as universities and created a nice taxonomy out of this messy data <ref type="bibr" target="#b26">[27]</ref>. According to Sebastian Thurn, the model can perform as well as a dermatologist according to the first tests, not solely performing well on a performance metric <ref type="bibr" target="#b26">[27]</ref>. Performance-wise, the goal should be to match human-dermatologist performance. The results show that the neural network is as accurate as human dermatologists in identifying skin lesions and deciding that the next step is a biopsy <ref type="bibr" target="#b26">[27]</ref>. Thurn and his team believe that, with this model, the early detection of skin cancer types such as malignant melanoma or malignant carcinoma would be feasible and such assistance would greatly contribute to saving lives <ref type="bibr" target="#b26">[27]</ref>. The importance of this advancement comes from the fact that such an easy way of diagnosis, instead of going to a doctor, would help to identify cancers in their early stages <ref type="bibr" target="#b28">[29]</ref>. With this in mind, early detection would have a huge impact on skin cancer outcomes. The performance of this state-of-art model is measured with the sensitivity and specificity scores, which correspond to correctly labeling malignant lesions and correctly labeling benign lesions, respectively <ref type="bibr" target="#b26">[27]</ref>. The model matched the performance of human dermatologists, with a score of 91 <ref type="bibr" target="#b26">[27]</ref>. Although the results are inspiring, Susan Wetter, professor of dermatology at the Stanford Cancer Institute recommends being cautious when leveraging the model in clinical practice and a thorough and rigorous testing of the model to ensure that no bias is present or minimized <ref type="bibr" target="#b26">[27]</ref>. Even with the challenges ahead, the advancement is extremely beneficial to the healthcare sector and will hopefully be fully implemented in clinical practices <ref type="bibr" target="#b18">[19]</ref>. One other application of imaging in healthcare is from neuroscience, the science of investigating the brain and observing its properties such as perception, memory, and learning. Marvin Chun, a Professor of Psychology and Professor of Neuroscience, employs fMRI devices to study the brain's structure <ref type="bibr" target="#b49">[50]</ref>. The first study that started brain imaging was mapping out parts of the brain when people saw scenery images or faces <ref type="bibr" target="#b49">[50]</ref>. While the people were looking at images of scenery or faces, the researchers scanned their brains and observed that different parts of the brain were active when looking at different images <ref type="bibr" target="#b49">[50]</ref>. Then the essential question of "How can one understand how the mind and the brain work by looking at the brain activity?" arose. To answer this question, scientists collected data from the brain, with fMRI, and stored it in cubic units called voxels that differ from each other when different parts of the brain are active <ref type="bibr" target="#b49">[50]</ref>. To illustrate, when one looks at an image of a shoe, a different voxel is recorded when one looks at an image of a cat. What researchers realized is that the voxel patterns could be decoded by mathematical models, and can be later used to recreate the brain activity <ref type="bibr" target="#b49">[50]</ref>. Thus, an AI model (classifier, decoder) can predict the subject one looks at by observing the voxel patterns of an fMRI scan <ref type="bibr" target="#b49">[50]</ref>. The AI classifiers essentially learn the mapping between the subjects and the fMRI activity and can reverse the process by recreating the subjects using the fMRI activity. One example of this is that a study conducted by Nishimoto et al. showed a group of people different videos and recorded brain activity using an fMRI scanner <ref type="bibr" target="#b49">[50]</ref>. An AI model was later trained with the brain activity and learned the mapping between the videos and the fMRI activity, which can essentially enable the model to reconstruct the videos they are watching, based on the voxels <ref type="bibr" target="#b49">[50]</ref>. Progress on neural reconstruction was made by Chun and his team of researchers. According to Chun, one application for reading minds is to determine when people are in their "zone," i.e. when they are fully focused and can perform well <ref type="bibr" target="#b49">[50]</ref>. Chun and his team identified 2 networks in the human brain, the blue network, and the red network, for low perfor-mance and high performance, respectively <ref type="bibr" target="#b49">[50]</ref>. If an activity has been spotted in the red network, it means that the person tends to do better. The team gathered people and put them in fMRI scanners, and asked them to close their eyes and rest for 10 minutes <ref type="bibr" target="#b49">[50]</ref>. The results were successful, as Chun and his team predicted how well they could perform in the next hour. The implications of this conclusion may be vastly large, says Chun <ref type="bibr" target="#b49">[50]</ref>. People with ADHD could be studied and their neural activity may be decoded with AI models, and solutions for people with such disabilities may be developed. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Personalized Medicine and AI</head><p>With liver cancer on the rise, researchers at Yale University are trying to develop personalized treatment for liver cancer that can curate specific treatments for a patient, considering their personal and medical background, using Artificial Intelligence <ref type="bibr" target="#b11">[12]</ref>. According to the research team, to prepare such a customized treatment, a patient's conditions must be fully analyzed and interpreted as the goal is to personalize treatment for every patient <ref type="bibr" target="#b11">[12]</ref>. A prior work needs to be done, says Jeffrey Polak, professor of radiology and biomedical imaging <ref type="bibr" target="#b11">[12]</ref>. Imaging techniques such as MRI and CT could be done for the early detection of cancer and data can be collected through the resulting medical images <ref type="bibr" target="#b11">[12]</ref>. The vast amount of data is generally a good condition for AI models and algorithms. However, Yale researchers say that the overwhelming amount of data and the features and factors to consider when offering customized treatment to patients makes the situation far more complex <ref type="bibr" target="#b11">[12]</ref>. The data to consider when offering personalized liver cancer treatment include a patient's blood work, his/her other medical conditions and his/her medical condition history, the number of tumors, multi-parametric imaging data, tumor markers, genomic information, and the size of the tumor among many other parameters <ref type="bibr" target="#b11">[12]</ref>. The challenge for the team is to identify the key points in the data and select the most important features so that it becomes easy to work with a smaller yet representative subset of data and offer treatments based on those features, rather than a whole lot of dimensions to consider. The biologists and clinical doctors teamed up with Yale bioengineers and computer scientists to integrate AI into their pipelines to tackle a large number of features <ref type="bibr" target="#b11">[12]</ref>. The ultimate goal is to "bridge the gap between complex clinical data and patient care," says the team <ref type="bibr" target="#b11">[12]</ref>. Therefore, the AI-powered streamlined clinical decision process would help researchers and physicians to focus on key clinical data and thus save a good amount of time, in addition, help patients to get the best care regarding their situation and personal information.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Prosthetics and Artificial Intelligence</head><p>A prosthetic is an artificial body part, such as a limb, a jaw, or a heart that is implemented in a person's body because of a malfunctioning body part <ref type="bibr" target="#b30">[31]</ref>. Prosthetics are most useful for people with disabilities or dysfunctioning limbs that hinder them from performing their everyday tasks, such as wrist rotation, running, or even walking <ref type="bibr" target="#b23">[24]</ref>. Fortunately, AI and robotics are there to save such people in difficult conditions. The first intelligent prosthetics were developed by Chas. A. Blatchford Sons in 1993, and a year later its improved version was released with the name Prosthesis Plus <ref type="bibr" target="#b34">[35]</ref>. Blatchford developed an adaptive prosthesis combining three fundamental actuation mechanisms that are hydraulic, a mechanical function that operates with the force of liquid pressure, pneumatics, a mechanical function that uses energy in compressed gas, and microprocessor power <ref type="bibr" target="#b33">[34]</ref>. "Power Knee" developed in 2006 by the company OSSUR is the first prosthetics device that utilizes AI mechanisms. The same company introduced the first bionic leg with robot mechanisms that can perform fundamental leg movements <ref type="bibr" target="#b33">[34]</ref>. More complex devices were later developed and utilized the power of microprocessors. The Blatchford group produced a fully integrated limb that had 4 CPUs and 7 sensors that allowed for the coordination and synchronization of knee and ankle joints <ref type="bibr" target="#b33">[34]</ref>. Along with AI, robot mechanisms are used as well in producing prosthetic devices. The iWalk BiOM is the world's first bionic calf system that utilized advanced robotics to mimic the function of muscle groups <ref type="bibr" target="#b33">[34]</ref>. Since the drastic rise of AI, the implementation of AI methods in prosthetics increased massively over the years and makes it advantageous and desirable for amputees to utilize AI-powered prosthetic devices [?]. The applications of advanced methodologies are divided into mainly three categories: Lower Extremity Prosthesis, Upper Extremity Prosthesis, and Motorized Mobility Devices <ref type="bibr" target="#b33">[34]</ref>. AI in the upper extremity uses Neural Networks (NNs) to process signals. The control signals come in two forms: electromyography (EMG), and Electroencephalogram (EEG) <ref type="bibr" target="#b33">[34]</ref>. Previous efforts to achieve voluntary manipulation of the prosthetic device concentrated on utilizing EMG signals from muscle sets that are still subject to voluntary control <ref type="bibr" target="#b33">[34]</ref>. The conventional EMG technique used surface sensors and had many limitations such as the inability to record the signal from different groups at a time, inconsistency, noise, and interference from other tissues. Yet the biggest advantage is it is easy to implement and risk-free. The advanced method over the conventional EMG technique utilized pattern recognition with AI algorithms <ref type="bibr" target="#b33">[34]</ref>. Using pattern classification, a variety of different movements were recorded by distinguishing EMG characteristics.</p><p>The pattern is then sent to a prosthesis controller to apply the movement. This advanced EMG classification technique aims to discriminate the intended movements from the EMG recordings as accurately as possible <ref type="bibr" target="#b35">[36]</ref>. Among many AI algorithms such as Linear Discriminant Analysis (LDA), Bayesian statistical methods, and Neural Networks. The LDA classifier is simpler and faster to train that achieves the same accuracy as others. Some examples from upper extremity prosthesis include Jafarzadeh M's deep convolutional neural network (CNN) that had 6 convolutional layers, layers that take images and select the most relevant features in an image, and 2 deep layers. CNN helped the prosthesis device mimic a human hand and perform novel hand movements. Chih-Wei-Chen's LDA model classified EEG signals to control hand orthosis into three states (right, left, nil) <ref type="bibr" target="#b33">[34]</ref>. Even though the applications of deep learning on upper extremity prostheses are extensive, researchers warn users about the potential risks of AI employment, including its ethical consequences.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">Ethics of AI in Healthcare and Medicine</head><p>AI, in the most recent years, had a big development as a result of the advancements in computing power. This rapid development is surely beneficial for society, but some ethical concerns also exist when it comes to incorporating AI in the medical sector. There's a strong desire to implement AI in medicine due to its many benefits, explains Danton Char, assistant professor of anesthesiology and pain medicine <ref type="bibr" target="#b19">[20]</ref>. Yet, Char and his team began to notice, from the implementations of AI in nonhealthcare areas, ethical problems may arise when AI is deployed and trained at a large scale <ref type="bibr" target="#b19">[20]</ref>. The ethical concerns that are issued by Char and his team include bias. According to Char, biased data may lead to a faulty outcome from machine learning models. Professor Magnus, Professor of Medicine and Biomedical Ethics, argues that the three most common biases that can be seen in the health data are human bias, a bias that is introduced by design, and bias in the ways health care systems use data <ref type="bibr" target="#b19">[20]</ref>. Magnus states that conflicting goals when designing artificial intelligence models are one factor of bias introduced by design. For instance, a model could be designed to save money instead of patient treatment. This would lead to a machine learning model that serves different treatments to their patients regarding their financial status and their background <ref type="bibr" target="#b19">[20]</ref>. The differences between the intentions of the doctors that use the artificial intelligence model and the engineers that make the model can be a source of this tension between the goals of designing a model that improves health and improves profit <ref type="bibr" target="#b19">[20]</ref>. One way to prevent such tension is to gain a better understanding of the black box, referring to the internals of a neural network model. Magnus explains that physicians and computer scientists should become more educated about their craft and its limitations so that the prevention of creating black boxes that lead to ethically problemed outcomes could be possible <ref type="bibr" target="#b19">[20]</ref>. As to further investigate the black box property of neural networks, certain techniques could be utilized, such as plotting the distribution of the probabilities of the outputs or visualizing the intermediate layers of deep neural networks. One proposed method is the guided backpropagation algorithm. When applied to CNN-based neural networks that take images as inputs, it may accentuate the features that neurons learn <ref type="bibr" target="#b32">[33]</ref>. For instance, for a dog versus cat classifier, the network may look at the ears of the image and then makes its decision. Outputs of the guided backpropagation algorithm visualize this process and help AI practitioners to diminish the black box effect of neural networks.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6">Conclusion</head><p>AI is a vital technology that has been integrated into daily lives, with the potential to accomplish a variety of tasks. This encompassing field encompasses Machine Learning, Deep Learning, and several related subdomains. The AI in use is classified as narrow, or weak AI. This type is typically designated to machine learning, deep learning, and related subsets of AI. There is a vision of producing AI that surpasses current forms in terms of intelligence. These types are known as strong or super AI and remain more hypothetical than reality. They will be comparable to or even surpass human levels of intelligence, having the capacity to demonstrate emotional expressiveness and autonomy akin to humans. The research and development of strong AI are limited. However, experts are continuing to strive towards creating new technologies and breakthroughs that could lead to this emerging form of AI. Governments and businesses alike have started investing in research around artificial general intelligence (AGI), which focuses on developing a machine that can acquire knowledge and use it for any task or purpose. One example of super AI can be Chat-GPT, which is a virtual assistant developed by OpenAI. It is a combination of deep learning algorithms and natural language processes that enable it to understand human conversations. The potential for AGI is tremendous, with experts predicting massive progressions in automation, transportation, healthcare, robotics, and many other industries. Imaging has been used in the medical field for over a hundred years, beginning with Roentgen's discovery of X-rays in 1895. Ultrasound was introduced in the 1970s, which uses sound waves instead of radiation. This led to MRI technology. Stanford's 2018 algorithm CheXNeXt can read chest X-ray images in seconds, recognizing over a dozen diseases with 10 out of 14 prediction matchings. Previous models identified only one disease at a time, and radiologists took 3 hours to diagnose compared to 90 seconds for AI. It is suggested the algorithm could be used as an initial step for doctors to consult and verify their predictions. The field of neuroscience, which studies the brain and its associated cognitive processes such as perception, memory, and learning representation, also utilizes imaging in its application to healthcare. AI is a main impulsion of personalized medicine; its capacity for data processing and correlation detection surpasses the capacity of human experts, standing as a potential tool in revolutionizing diagnosis and therapies. AI's potential to revolutionize medicine is vast and its applications are boundless. With AI, doctors can also use digital images or scans of bodily organs for more accuracy. The use of AI allows prosthetic limb designers to craft intelligent and intricate designs that emulate the intricacies. AI has been a breakthrough in the area of prosthetics. It allows for limbs to be designed with features and sensitivities that almost perfectly mimic those found in human body parts, giving amputees another chance at a life with movement, mobility, and even pleasure. The integration of AI into healthcare has the potential to introduce numerous ethical issues, one of the most pressing being the issue of bias. AI models are often trained using datasets that are riddled with bias due to several factors. This means that real-world applications involving these AI models may inherit this bias, leading to unfair and discriminatory outcomes for certain types of patients. To sum up, AI has been used in a variety of sectors, including healthcare to maximize patient satisfaction or alleviate difficulties experienced by medical specialists. This paper investigated AI's capabilities in healthcare with benefits and drawbacks.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Illustration of fMRI Data with Voxels [41]</figDesc><graphic coords="5,310.61,279.78,233.62,107.05" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m">The nobel prize in physics</title>
+				<imprint>
+			<date type="published" when="1901">1901</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Breaking barriers: Unconscious gender bias in the workplace</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">The history of artificial intelligence</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Virtual clinical trials in medical imaging: A review</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Abadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Segars</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Tsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Kinahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bottenus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Frangi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Maidment</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Samei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Medical Imaging</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">04</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The impact of artificial intelligence in medicine on the future role of the physician</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Ahuja</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Artificial intelligence rivals radiologists in screening x-rays for certain diseases</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Armitage</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">11</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Low-field mri: Clinical promise and challenges</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Litt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Stein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of magnetic resonance imaging : JMRI</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="25" to="44" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The rise of artificial intelligence in healthcare applications</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Memarzadeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Artificial Intelligence in Healthcare</title>
+				<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="25" to="60" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">History of medical imaging</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Bradley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the American Philosophical Society</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="349" to="361" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">History of medical imaging</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Bradley</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Magnetoencephalography and the infant brain</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Saby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kuschner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gaetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Edgar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P L</forename><surname>Roberts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NeuroImage</title>
+		<imprint>
+			<biblScope unit="volume">189</biblScope>
+			<biblScope unit="page" from="445" to="458" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Using artificial intelligence to personalize liver cancer treatment</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Conner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">7</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The potential for artificial intelligence in healthcare</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Davenport</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kalakota</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Future Healthcare Journal</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="94" to="98" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Artificial intelligence and its impact on everyday life</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Díaz</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">2022</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Anniversary paper: nuclear medicine: fifty years and still counting</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medical physics</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="3020" to="3029" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Machine learning vs deep learning: What&apos;s the difference?</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T A W</forename><surname>Seo</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>n.d</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Overcoming the pitfalls and perils of algorithms: A classification of machine learning biases and mitigation methods</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Giffen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Herhausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fahse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Research</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">2022</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Overview of functional magnetic resonance imaging</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G H</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurosurgery clinics of North America</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">133</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Technology and the future of healthcare</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of public health research</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">e28</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Researchers say use of artificial intelligence in medicine raises ethical questions</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hannon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in radiology</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hosny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Parmar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Quackenbush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Aerts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews Cancer</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="500" to="510" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Modern diagnostic imaging technique applications and risk factors in the medical field: A review</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hussain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mubeen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ullah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S U D</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zahoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ullah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Sultan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BioMed research international</title>
+		<imprint>
+			<biblScope unit="page">5164970</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">IBM. What is artificial intelligence</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">The promise of assistive technology to enhance activity and work participation</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Spicer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Flaubert</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>The National Academies Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in healthcare: Past, present and future</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Stroke and Vascular Neurology</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="230" to="243" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Reducing bias in ai-based financial services</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Bartik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Wheeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J M</forename><surname>Turner Lee</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Deep learning algorithm does as well as dermatologists in identifying skin cancer</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kubota</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">1 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Application of artificial intelligence-based technologies in the healthcare industry: Opportunities and challenges</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Yoon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Environmental Research and Public Health</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">271</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Cancer screening and early detection in the 21st century</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Loud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Murphy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Seminars in oncology nursing</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="121" to="128" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">An overview of deep learning in medical imaging focusing on mri</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Lundervold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lundervold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zeitschrift Für Medizinische Physik</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="102" to="127" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Science, medicine, and the future: Artificial limbs</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Marks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Michael</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">323</biblScope>
+			<biblScope unit="issue">7315</biblScope>
+			<biblScope unit="page" from="732" to="735" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Deep learning for healthcare: Review, opportunities and challenges</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Miotto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Dudley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Briefings in bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Leveraging guided backpropagation to select convolutional neural networks for plant classification</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mostafa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mondal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Bidinosti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Stavness</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Frontiers</title>
+				<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">2022</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Application of artificial intelligence (ai) in prosthetic and orthotic rehabilitation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nayak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Das</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Application of Artificial Intelligence (AI) in Prosthetic and Orthotic Rehabilitation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nayak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Kumar</forename><surname>Das</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<publisher>IntechOpen</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">A review of classification techniques of emg signals during isotonic and isometric contractions</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nazmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Abdul Rahman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Ahmad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zamzuri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Mazlan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sensors</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">1304</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">The turing test</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Oppy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dowe</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">2021</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">A history of the shift toward full computerization of medicine</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of oncology practice</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="54" to="56" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Ethical concerns mount as ai takes bigger decision-making role</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pazzanese</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rajpurkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Irvin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bagul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Langlotz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">W</forename><surname>Yeom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shpanskaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Blankenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seekins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Amrhein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Mong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Halabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Zucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Y</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Lungren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Deep learning for chest radiograph diagnosis: A retrospective comparison of the chexnext algorithm to practicing radiologists</title>
+				<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">e1002686</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Scalable bayesian spatial analysis with gaussian markov random fields</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sidén</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Considerations for development and use of ai in response to covid-19</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Sipior</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Information Management</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page">102170</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">The history of artificial intelligence -university of washington</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mcguire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yang</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Dealing with bias in artificial intelligence</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Smith</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Nature of Inference: Correlation and Causation. Bias in algorithms with nisheeth vishnoi</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">Artificial intelligence: Examples of ethical dilemmas</title>
+		<author>
+			<persName><surname>Unesco</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Org</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Positron emission tomography: Current challenges and opportunities for technological advances in clinical and preclinical imaging systems</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Vaquero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kinahan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual review of biomedical engineering</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="385" to="414" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">These medical specialties have the biggest gender imbalances</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M S N</forename><surname>Writerbookmark</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">10</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence: A powerful paradigm for scientific research</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-W</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Innovation</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">100179</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Reading minds -marvin chuntedxyale</title>
+		<author>
+			<persName><surname>Youtube</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

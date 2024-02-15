@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">National Level Conference on &quot;Leadership Challenges in the Changing Global Business Environment&quot;</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jain</forename><surname>College</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Commerce and Management Jain College</orgName>
+								<address>
+									<addrLine>Vasavi Temple Road</addrLine>
+									<settlement>Puram, Bangalore</settlement>
+									<region>VV</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Bangalore</roleName><forename type="first">V</forename><forename type="middle">V</forename><surname>Puram</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Commerce and Management Jain College</orgName>
+								<address>
+									<addrLine>Vasavi Temple Road</addrLine>
+									<settlement>Puram, Bangalore</settlement>
+									<region>VV</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ms</forename><forename type="middle">S</forename><surname>Divya</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Commerce and Management Jain College</orgName>
+								<address>
+									<addrLine>Vasavi Temple Road</addrLine>
+									<settlement>Puram, Bangalore</settlement>
+									<region>VV</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Com</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Commerce and Management Jain College</orgName>
+								<address>
+									<addrLine>Vasavi Temple Road</addrLine>
+									<settlement>Puram, Bangalore</settlement>
+									<region>VV</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Phil</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Commerce and Management Jain College</orgName>
+								<address>
+									<addrLine>Vasavi Temple Road</addrLine>
+									<settlement>Puram, Bangalore</settlement>
+									<region>VV</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">National Level Conference on &quot;Leadership Challenges in the Changing Global Business Environment&quot;</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">2321-788X</idno>
+					</monogr>
+					<idno type="MD5">951122EFF2E88FE31A8C6768A76D0C12</idno>
+					<idno type="DOI">10.5281/zenodo.3669462</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.2" ident="GROBID" when="2024-02-15T17:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Arti cial intelligence</term>
+					<term>machine learning</term>
+					<term>and algorithms relating to medical diagnosis</term>
+					<term>planning and treatment</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The in ux of new technologies in the Information Age has affected many industries. Especially automation, machine learning and AI have reshaped the health care industry. The aim of medicine is to heal and promote the health of human being. There are a few stakeholders who are working behind the scene towards, treatment and prevention of disease with medical research in many other aspects of health. Robots have already created a substantial impact on the health care industry. Generally, Robots are employed in healthcare Laboratory but in the recent past they have entered clinical medicine too. This has led to evolution of surgical robotics that adds value to other industries in return.</p><p>AI techniques have made big news across healthcare; will AI replace doctors in the Future? We believe that doctors will not be replaced by machines soon, but could it aid them in making better decisions in some healthcare sectors (Example: radiology). There are milestones covered by AI as it is tenderly known, has brought the world at one's feet. It has acted as a catalyst for growth in various industries which has been quickand sometimes, totally unpredictable. AI is a group of multiple technologies that imitate the human's cognitive functions.</p><p>Over 1000 North American business executives opined that 20% of the organizations would implement AI enterprises in 2019 in a survey conducted by PwC. A largest European stock broking  rm after their trial run of AI program showed that these programs are more ef cient than the traditional system of trading. In Insurance a Japanese  rm had replaced 34 employees with an AI system and believed that it would increase productivity by 30%, having ROI in less than two years. Today not even the jobs of software developer for AI, are safe. Microsoft and Cambridge developed an AI capable of resolving simple math problem. We as professors are not excused, either with the advent of AI in Teaching and learning pedagogy -Example: online learning portals like Coursera/ MOOCs etc. Which would dispute the teaching fraternity.</p><p>In contrast to other industries, the health care industry has been a relatively slow adopter of AI, which has only recently become mainstream. Though the AI is implanted in different sectors its utility remains limited in clinical practice. However, research in this area is growing exponentially.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Qualitative Review Methodology</head><p>This paper summarizes health research in AI, across different medical disciplines from 2016-2019 and discusses the current scenario, challenges relating to this emerging technology. The authorspeci es thatAI developments in health carehave made vast progress over the past three years because of exponential growth, mainly due to advancements in computer hardware and software technologies. The author has speci cally restricted her review to recent research in AIpublished in highly ranked medical journals. This qualitative review is not intended to be a systematic review, and the author has restricted the research to AI research that would affectmedical leaders in the health care industry. The focus of the review is to ensure that medical practitioners, especially those in leadership roles, are made aware of how quickly AI is advancing in health, so that they are ready for its adoption and adaptation by the health system.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Findings AI in diagnosis</head><p>AI systems help in reducing therapeutic and diagnostic errors that are inevitable in clinical practices committed by man. AI uses sophisticated algorithms to learn attribute from a large source of data to assist clinical practice. It can also be equipped with auto correct abilities after learning from feedback to enhance its accuracy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AI in information systems</head><p>Training must be provided to AI system users on the data which is generated from clinical activities like Screening, diagnosis, treatments, review checkups, etc.As it could be associated with similar subject features and outcomes of interest.</p><p>The other two major data sources are Physical examination notes and clinical laboratory results. Which are differentiatedby image, genetic and electrophysiological (EP) data as they contain large volume of unstructured lengthy texts, example: clinical notes, which are not so easily understood. Hence, the  rst focus of AI applications is on converting the unstructured text to machineunderstandable language -electronic medical record(EMR).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AI in clinical results</head><p>AI devices are mainly categorized into two. The  rst one is Machine learning (ML) technique -structured data like imaging, genetics and EP. At medical application ML procedures, attempts to classify the patients' attributes. The second form is known as natural language processing (NLP) -information is extracted from unstructured data such as medical journals/clinical notes which supplement the structured medical data by enriching them.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AI in treatment of diseases</head><p>Even though there are many rich AI literature in health care, the research mainly focuses around a few disease types: cancer, nervous system disease and cardiovascular disease. The focus around these three diseases is expected as early diagnoses are required to prevent the deterioration of patients' health status.This can be achieved in AI system through proper analysis of procedures on imaging, genetic, EP or EMR Robotic surgical devices require human intervention. The AI System performs autonomous surgery with human aid. In 2017, a robotic surgery breakthrough, a robot dentist in China was able to carry out the world's  rst successful autonomous implant surgery by  tting two new teeth into a woman's mouth without any human intervention.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AI's current scenario</head><p>So, based on the available sources, what is AI good at today? The AI's present context is in its ability to learn from a large dataset and identify patterns that can be used to diagnose critical conditions. The AI has a direct competition with medical specialties that are involved in diagnostic tests for pattern identi cation, and the required tests are pathology and radiology.</p><p>It is evident that, radiologists are utilizing ML applications for image analysis in their discipline, but the AI System will provide ample opportunities for radiologists improve the quality of the patient's health with their diagnostic and predictive capabilities in radiology. The diagnostic and predictive capabilities in radiology will continue to improve on AI System.</p><p>The diagnostic and predictive capabilities in radiology continue to improve in AI systems. The United States Food and Drugs Administration has approved an AI application in deep learning platform in a clinical setting which helps doctors to diagnose heart problems.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Could AI take over the role of a doctor totally?</head><p>AI may be as safe as, or even better than, humans when it adds up to formulating diagnoses based on identifying patterns on images, but is AI ready to acquire over the complete role of a fully trained medical practitioner?Thus far, the result seems to be-not even. In the  rst direct comparison of diagnostic accuracy, physicians were found to vastly outperform computer algorithms in diagnostic accuracy (84.3% vs 51.2% correct diagnosis in the top three listed bearing in mind that this study compared doctors with relatively simple symptom checker applications.</p><p>It is paradoxical that AI systems seem more in force than human doctors diagnosing or in starting up with management plans, if they are provided with suf ciently large amounts of data that are beyond what humans can manually stop down.Medical practitioner as a leader is more pro cient in logical reasoning, problem solving and analytical skills.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Challenges of AI in health industry</head><p>It is understood from the qualitative review that AI in health, has progressed signi cantly, within the span of three years.It is probable that a lot of this recent advance is due to the increasing presence of large training data sets and advances in computer hardware, in the  esh of computer storage and computational capability. Nevertheless, on that point are some challenges that necessitate to be considered as AI usage increases in health maintenance.Firstly, the primary fear is that of legal liability. If an error occurs medically, who is to be held liable? A robot surgeon is not a legal entity, so who should the patient sue, is it the owner, the programmer, the manufacturer or someone else? Could it ever be subject to criminal liability? All these AI dilemmas are not unique to the health care industry.</p><p>Secondly the subject is the reliability of doctors on the recommendations of AI by reducing the number of medical errors and misdiagnoses which fosters reduction in medicolegal claims.In fact, there may come a day that it would be considered negligent for a physician not to rely on the recommendation of a health AI system if it becomes the standard of upkeep.</p><p>Thirdly, it's the subject of morality and ethics with AI.An AI in healthcare can provide guidance as to the moral wishes of the patient-for example, does the patient want to maximize the quality of life?</p><p>Another issue with AI-inherent bias. AI systems can be incorrectly programmed to be biased in accordance with the preconceptions of the programmers or, with the development of self-learning algorithms, determine to be biased based on the data robot is learning from. In addition, AI systems  nd it tougher to generalize  ndings from a minimaldata set. Schemes to reduce such biases must be solved with an increase in the adoption of AI by healthcare.</p><p>The last issue that needs to be considered relates to how the AI uses data. The character of the information extracted is still dependent on the accuracy of the data being entered, as patientreported outcome measures may still be treacherous.The advanced AI systems can link disparate health data from separate databases together to forge associations that may otherwise be lost.</p><p>Nevertheless, the publication of information ownership and privacy needs to be studied. A related case study is the recent  nding by the UK's Information Commissioner that a National Health Service trust breached privacy laws by sharing patient data with Google for Google's DeepMind Streams app. Although this app did not directly use AI, the alleged data breach demonstrates that the demand for the maturation of a data governance framework that brings into account data ownership, privacy rules, patient consent and data security. Privacy laws may need to be reviewed to ensure they are relevant even as it is exhibited in the public domain.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Future of AI</head><p>Today AI has become an integral part of our life due to the advancements of smart phones and other industries. For example, Alexa is a virtual assistant developed by Amazon, It is capable of voice interaction, music playback, making to-do lists, setting alerts, streaming podcasts, playing Audiobooks, and providing weather, traf c, sports, and other real-time information, such as news. Alexa can also hold in several smart devices using it as a home automation system AI can currently analyze large amounts of data much faster than humans can use today's hardware. AI researchers are already developing AI algorithms that can discover, grow and mature like human being's act, through self-expression.</p><p>With drastic improvements in computer software and hardware, with gain in large datasets that are being joined together, Ray Kurzweil, a Google AI expert, believes that AI will override the human brainpower by 2023 and touch what he terms 'singularity' in 2045, which is when the AI will excel the brainpower equivalent to that of all human beings combined.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Implications on Medical Leaders</head><p>Medical leaders need to be aware of the potential impacts that new health technologies will have on the current and future health system.</p><p>They demand to ensure that strong governance structures with appropriate review of new technologies must be planned prior to their implementation, in terms of safety and cost-effectiveness. An appropriate training regime should also be carried out to ensure that staff is prepared and cognizant of their ethical and legal responsibilities.A strong framework needs to be devised towards data management with relevant laws and rules.</p><p>They willhave to constantly expose themselves to future innovations in AI by preparing forupcoming threats and opportunities, well in advance. AI and robotization will have an impingement of the health workforce, which is of outstanding worry.</p><p>They must be aware that AI systems are not precisely relevant to clinical attention, they too can be practiced supporting, and relatively replace, the role of managers, in health,  nancial management, priority setting, resource allocation and workforce management.</p><p>Lastly, medical leadership will possess to be catalytic in AI transformation for the healthcare industry in the years to come. They will have to ensure that the patient experience and needs are always the top most priority; ultimately, medical leaders are still doctors, whose duty is to care for patients as imports.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>It is clear from this qualitative review of recent evidences that AI research in the health care industry is progressive in nature, by being effective in major aspects of medicine like diagnosis, preparation and even treatment.The medical leaders need to hold a mature deliberation about the legal, ethical and moral challenges of AI in health, and alleviate any prospective bias that such systems may accept from their manufacturers.</p><p>Regardless of whether the AI singularity comes to take place or not, AI in health will continue to speed up.However, challenges are realized in the adoption of AI in health care services, foundations, organizations and governments. As doctors and health leaders, they need to forester in preparing the professionals to be supported, in the future, potentially, betaken over by, AI and advanced robotics systems. This review depicts vast Opportunity to shape the development of humanity's future autonomous health providers, and they should be leaders in their domain rather than passive professionals.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<idno>pwc.com/AI2019</idno>
+		<ptr target="ignorehttps://www.pwc.com/us/en/services/consulting/library/articial-intelligence-predictions-2019.html" />
+		<title level="m">Six AI priorities you can&apos;t afford to</title>
+				<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">JP Morgan develops robot to execute trades</title>
+		<ptr target="2017https://www.ft.com/content/16b8ffb6-7161-11e7-aca6-c6bd07df1a3c" />
+	</analytic>
+	<monogr>
+		<title level="j">Financial Times</title>
+		<imprint>
+			<date type="published" when="2017-11">Nov 2017</date>
+			<publisher>Google Scholar</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">The Washington Post&apos;s robot reporter has published 850 articles in the past year</title>
+		<author>
+			<persName><surname>Digiday</surname></persName>
+		</author>
+		<ptr target="2017https://digiday.com/media/washington-posts-robot-reporter-published-500-articles-last-year" />
+		<imprint>
+			<date type="published" when="2017-11">Nov 2017</date>
+			<publisher>Google Scholar</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">DeepCoder: learning to write programs</title>
+		<author>
+			<persName><surname>Balogm</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Gaunta</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Brockschmidtm</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>Google Scholar</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Chinese robot dentist is  rst to  t implants in patient&apos;s mouth without any human involvement</title>
+		<author>
+			<persName><forename type="first">South</forename><surname>China</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Morning</forename><surname>Post</surname></persName>
+		</author>
+		<ptr target="2017http://www.scmp.com/news/china/article/2112197/chinese-robot-dentist-rst-t-implants-patients-mouth-without-any-human" />
+		<imprint>
+			<date type="published" when="2018-01-10">10 Jan 2018</date>
+			<publisher>Google Scholar</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Chinese robot dentist is  rst to  t implants in patient&apos;s mouth without any human involvement</title>
+		<author>
+			<persName><forename type="first">South</forename><surname>China</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Morning</forename><surname>Post</surname></persName>
+		</author>
+		<ptr target="2017http://www.scmp.com/news/china/article/2112197/chinese-robot-dentist-rst-t-implants-patients-mouth-without-any-human" />
+		<imprint>
+			<date type="published" when="2018-01-10">10 Jan 2018</date>
+			<publisher>Google Scholar</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<author>
+			<persName><forename type="first">Beckah</forename><surname>Grantersr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Papkedj</forename><surname>Alphago</surname></persName>
+		</author>
+		<idno type="DOI">10.5858/arpa.2016-0471-EDGoogleScholar</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Deep Learning, and the Future of the Human Microscopist</title>
+				<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="619" to="621" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Detecting cancer metastases on gigapixel pathology images</title>
+		<author>
+			<persName><surname>Liuy</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Gadepallik</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Norouzim</surname></persName>
+		</author>
+		<imprint>
+			<publisher>Google Scholar</publisher>
+			<biblScope unit="page">1703</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Diagnostic assessment of deep learning algorithms for detection of lymph node metastases in women with breast cancer</title>
+		<author>
+			<persName><forename type="first">Vetam</forename><surname>Ehteshamibejnordib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Johannes</forename><surname>Van Diestp</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2017.14585GoogleScholar</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">318</biblScope>
+			<biblScope unit="page" from="2199" to="2210" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Big Data and Machine Learning-Strategies for Driving This Bus: A Summary of the 2016 Intersociety Summer Conference</title>
+		<author>
+			<persName><surname>Kruskaljb</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Berkowitzs</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Geisjr</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jacr.2017.02.019GoogleScholar</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Coll</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="811" to="817" />
+			<date type="published" when="2017">Radiol2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Machine learning of three-dimensional right ventricular motion enables outcome prediction in pulmonary hypertension: a cardiac MR imaging study</title>
+		<author>
+			<persName><surname>Dawestjw</surname></persName>
+		</author>
+		<author>
+			<persName><surname>De Marvaoa</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Shiw</surname></persName>
+		</author>
+		<idno type="DOI">10.1148/radiol.2016161315GoogleScholar</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Radiology</title>
+		<imprint>
+			<biblScope unit="volume">283</biblScope>
+			<biblScope unit="page" from="381" to="390" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">FDA Approval For Clinical Cloud-Based Deep Learning In Healthcare</title>
+		<author>
+			<persName><surname>Forbes</surname></persName>
+		</author>
+		<author>
+			<persName><surname>First</surname></persName>
+		</author>
+		<ptr target="2017https://www.forbes.com/sites/bernardmarr/2017/01/20/rst-fda-approval-for-clinical-cloud-based-deep-learning-in-healthcare/" />
+		<imprint>
+			<date type="published" when="2018-01">January 2018</date>
+			<publisher>Google Scholar</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Comparison of physician and computer diagnostic accuracy</title>
+		<author>
+			<persName><forename type="first">Levinedm</forename><surname>Semigranhl</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Nundys</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jamainternmed.2016.6001GoogleScholar</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">176</biblScope>
+			<biblScope unit="page" from="1860" to="1861" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<author>
+			<persName><surname>Bbc News</surname></persName>
+		</author>
+		<ptr target="2017http://www.bbc.com/news/technology-40483202" />
+		<title level="m">Google DeepMind NHS app test broke UK privacy law</title>
+				<imprint>
+			<publisher>Google Scholar</publisher>
+			<date type="published" when="2018-04">Apr 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Marrakech: European Data Protection Supervisor, 2016:3. In Room document</title>
+		<author>
+			<persName><forename type="first">Mnihv</forename><surname>Jaderbergm</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Czarneckiwm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Arti cial Intelligence, Robotics, Privacy and Data Protection</title>
+				<imprint>
+			<biblScope unit="volume">16</biblScope>
+		</imprint>
+	</monogr>
+	<note>Reinforcement learning with unsupervised auxiliary tasks. arXiv2016.Google Scholar</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Learning to perform physics experiments via deep reinforcement learning</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Denil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Agrawal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kulkarni</surname></persName>
+		</author>
+		<idno>arXiv2017:1611.01843</idno>
+		<imprint>
+			<publisher>Google Scholar</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">The Singularity Is Near</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kurzweil</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<publisher>Google Scholar</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Tute</forename><surname>Genomics</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ceo</forename><surname>Reid Robison</surname></persName>
+		</author>
+		<ptr target="//www.techemergence.com/the-pathway-to-precision-medicine-with-tute-genomics-ceo-reid-robison/" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<ptr target="https://www.aimseducation.edu/blog/the-impact-of-technology-on-healthcare/" />
+		<title level="m">The Impact of Technology in Healthcare</title>
+				<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<ptr target="http://www.castelloditagliolo.com/the-real-benets-of-technology-in-healthcare/" />
+		<title level="m">The real bene ts of technology in healthcare</title>
+				<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Arti cial Intelligence in Medical Robotics -Current Applications and Possibilities</title>
+		<ptr target="https://emerj.com/ai-sector-overviews/articial-intelligence-medical-robotics/" />
+		<imprint>
+			<date type="published" when="2019-04-24">April 24. 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<ptr target="2019https://dataconomy.com/2019/08/how-will-ai-change-healthcare-robot-assisted-surgery-and-virtual-nurses-are-just-the-start/" />
+		<title level="m">Healthcare? Robot-Assisted Surgery and Virtual Nurses are Just the Start -RYAN AYERS•AUGUST 25</title>
+				<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Arti cial Intelligence: De nition, Examples, and Applications</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Copeland</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Internet</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Encyclopedia</forename><surname>Britannica</surname></persName>
+		</author>
+		<ptr target="https://www.britannica.com/technology/articial-intelligence" />
+		<imprint>
+			<date type="published" when="2018-08-25">2018. 2018 August 25</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Arti cial Intelligence | Encyclopedia.com</title>
+		<imprint/>
+	</monogr>
+	<note>Internet</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

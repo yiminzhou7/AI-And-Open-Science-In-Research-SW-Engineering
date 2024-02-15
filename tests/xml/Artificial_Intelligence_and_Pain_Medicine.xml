@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Artificial Intelligence and Pain Medicine: An Introduction</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2024-02-02">2 February 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Jonathan</forename><forename type="middle">M</forename><surname>Hagedorn</surname></persName>
+							<email>jonhagedornmd@yahoo.com</email>
+							<idno type="ORCID">0000-0003-1039-8166</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Anesthesiology and Perioperative Medicine</orgName>
+								<orgName type="department" key="dep2">Division of Pain Medicine</orgName>
+								<orgName type="institution">Mayo Clinic</orgName>
+								<address>
+									<settlement>Rochester</settlement>
+									<region>MN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tony</forename><forename type="middle">K</forename><surname>George</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Physical Medicine and Rehabilitation</orgName>
+								<orgName type="institution">University Orthopedic Associates</orgName>
+								<address>
+									<settlement>Somerset</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rohit</forename><surname>Aiyer</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Integrative Sports &amp; Spine</orgName>
+								<address>
+									<settlement>Long Beach</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Keith</forename><surname>Schmidt</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">Comprehensive Pain Management Program</orgName>
+								<orgName type="institution" key="instit2">St. Alexius Medical Center</orgName>
+								<address>
+									<settlement>Hoffman Estates</settlement>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">John</forename><surname>Halamka</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="institution" key="instit1">Mayo Clinic Platform</orgName>
+								<orgName type="institution" key="instit2">Mayo Clinic</orgName>
+								<address>
+									<settlement>Rochester</settlement>
+									<region>MN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ryan</forename><forename type="middle">S D'</forename><surname>Souza</surname></persName>
+							<idno type="ORCID">0000-0002-4601-9837</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Anesthesiology and Perioperative Medicine</orgName>
+								<orgName type="department" key="dep2">Division of Pain Medicine</orgName>
+								<orgName type="institution">Mayo Clinic</orgName>
+								<address>
+									<settlement>Rochester</settlement>
+									<region>MN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department" key="dep1">Department of Anesthesiology and Perioperative Medicine</orgName>
+								<orgName type="department" key="dep2">Division of Pain Medicine</orgName>
+								<orgName type="institution">Mayo Clinic</orgName>
+								<address>
+									<addrLine>200 First Street SW</addrLine>
+									<postCode>55905</postCode>
+									<settlement>Rochester</settlement>
+									<region>MN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Artificial Intelligence and Pain Medicine: An Introduction</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-02-02">2 February 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">20E7FF0286E4ACDADDCCF546F2B7DCF3</idno>
+					<idno type="DOI">10.2147/JPR.S429594</idno>
+					<note type="submission">Received: 8 July 2023 Accepted: 28 December 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.2" ident="GROBID" when="2024-02-15T18:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>artificial intelligence</term>
+					<term>pain medicine</term>
+					<term>chronic pain</term>
+					<term>education</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Artificial intelligence was introduced 60 years ago and has evolved immensely since that time. While artificial intelligence is found in nearly all aspects of our life, the use of artificial intelligence in the healthcare industry has only recently become apparent and more widely discussed. It is expected that artificial intelligence will allow improved disease recognition, treatment optimization, cost and time savings, product development, decision making, and marketing. For pain medicine specifically, these same benefits will be translatable and we can expect better disease recognition and treatment selection. As adoption occurs with this impressive technology, it will be imperative for the pain medicine community to be informed on proper definitions and expected use cases for artificial intelligence. Our objective was to provide pain medicine physicians an overview of artificial intelligence, including important definitions to aid understanding, and to offer potential clinical applications pertinent to the specialty.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Originally, the term "Artificial Intelligence" (AI) referred to the idea that computers could be taught pattern recognition with little to no human involvement or interaction. <ref type="bibr" target="#b0">1</ref> This initial concept by John McCarthy over 60 years ago has evolved into a larger idea involving rapid analysis of massive data repositories with subsequent machine algorithms to solve problems, drive human behavior, and solve complex problems, all of which previously required human intelligence. <ref type="bibr" target="#b1">2</ref> These human-machine interactions are seen in nearly all aspects of our life and the increased use of AI in the healthcare setting is no surprise. AI has transformed a variety of industries, including the internet (ex. automated search optimization and recommendations), automobiles (ex. autonomous vehicles), sales (ex. online purchase recommendations, targeted advertising), and the stock market (ex. forecasting). AI allows for machines to both learn from experience and fine tune computerized instructions to help mimic and perform human tasks. The use of AI in the healthcare industry has only recently become apparent with its use being explored in multiple avenues, including facilitation of diagnosis and delivery of treatment in patients, automation in workflow for payers and providers, and optimization of technology developed by manufacturers.</p><p>Our objective was to provide pain medicine physicians an overview of AI, including important definitions to aid understanding, and to offer potential clinical applications pertinent to the specialty. Through better understanding, we can support and encourage clinical adoption of the many benefits AI offers our patients and ourselves. The importance of this understanding will become increasingly critical as AI becomes integral in the diagnostic and treatment-related aspects of chronic pain management.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Deep Learning (DL)</head><p>A subcategory of ML and also its most complex. It involves intelligent algorithms that self-analyze, adapt, and predict with little or no human involvement. DL is capable of unsupervised learning from unlabeled and unstructured inputs. This requires sophisticated computer processing capabilities, and an ability to allow the machine to run autonomously and form hidden connections from varying levels of data. Over time, these connections take on the appearance of a diverse neural network. <ref type="bibr" target="#b1">2</ref> For example, a DL algorithm can be trained on a large dataset of patient information, including medical history, genetics, previous pain management strategies, and outcomes. The algorithm would then learn to identify which patterns and features within the data are associated with different treatment outcomes without being prompted to specific areas. Once the algorithm is trained, it can be used to analyze new patient data and predict which pain management strategies are likely to be most effective for that patient. This can help clinicians develop personalized treatment plans that are tailored to each patient's unique needs and characteristics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Delivery of Artificial Intelligence</head><p>The platform for accessing data in healthcare and subsequent delivery of AI can vary depending on the specific application and use case. However, there are some common platforms and technologies that are often used in healthcare to store, manage, and analyze data. These same data repositories could be used for delivery of AI.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Electronic Health Records (EHRs)</head><p>EHRs are digital versions of a patient's medical record that can be accessed and shared by healthcare professionals. EHRs can store a wide range of data, including medical history, medications, test results, and imaging data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Health Information Exchanges (HIEs)</head><p>HIEs are networks that allow healthcare organizations to share patient data securely. HIEs can improve care coordination by allowing healthcare professionals to access a patient's medical record from any location.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cloud Computing</head><p>Cloud computing platforms can be used to store and manage large amounts of healthcare data. Cloud platforms can provide scalability, flexibility, and cost-effectiveness compared to traditional on-premise storage solutions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Internet of Things (IoT) Devices</head><p>IoT refers to a network of physical objects or "things" that are connected to the internet (Wi-Fi, Bluetooth, or cellular networks) and can exchange data with each other. These objects can include devices such as sensors, appliances, vehicles, and wearable devices, as well as everyday objects such as furniture and clothing. The idea behind IoT is to enable these objects to communicate and exchange data in real-time, allowing for increased automation, improved efficiency, and new applications and services. For example, wearable devices can collect data on a patient's heart rate, activity level, and sleep patterns, which can be used to monitor their health remotely and make adjustments without hospitalization or a clinical appointment.</p><p>An ideal platform for displaying the derived results remains to be developed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>General Healthcare Applications</head><p>The current global healthcare landscape could benefit immensely from AI in a number of different dimensions, including, but not limited to, outcome optimization, cost reductions, new product development, and improved decision making.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Outcome Optimization</head><p>As modern healthcare has transitioned to EHR, the collection of Big Data has become increasingly possible. The current EHR includes detailed laboratory results, high-resolution medical imaging findings, and procedural and surgical outcomes, amongst many other collectibles, which can be collated and analyzed with ML. A myriad of outcome analyses could be computed from these datasets. Current need for human input of data into the EHR is one limitation, but with time that too will likely be integrated into an AI function and analysis will evolve into DL. AI can also help direct optimization of adaptive clinical trials. An example is the randomized, embedded, multifactorial, adaptive, platform (REMAP) trial. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> In this approach, therapies can be randomized (eg spinal cord stimulation versus conventional medical management) within the EHR (platform) and at the point-of-care level (pain medicine physician). The process of randomization in REMAP is adaptive and determined by ML algorithms based on real-time outcomes through Bayesian analysis. From analysis of data that are already accrued, REMAP can increase the likelihood that participants within a trial are randomized to treatments that are more likely to be beneficial. Further, when statistical graduation rules are satisfied, then recruitment is stopped.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Disease Recognition and Prognosis</head><p>The technology can be used to identify and link examinations, laboratory results, and imaging findings to more accurately diagnose specific diseases. For example, AI-powered tools may be able to analyze patient records to identify patterns and risk factors that may indicate the presence of a particular condition. This condition could then have treatment options available with data to support successful outcomes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cost and Time Savings</head><p>The cost of healthcare has grown exponentially over the past few decades. <ref type="bibr" target="#b5">6</ref> When considering the United States alone, healthcare quality metrics in many areas of outcome data do not coincide with its consistently high per capita healthcare expenditures. <ref type="bibr" target="#b6">7</ref> AI has the potential to change that through a variety of mechanisms, including direct cost reduction and identification of inefficiencies being particularly pivotal. AI-powered tools can help physicians and care teams streamline workflow and reduce the time and resources required for certain tasks, such as data entry and analysis. This can help to reduce costs and improve efficiency in all patient care settings. It can also assist by automating certain tasks, such as analyzing patient records or identifying patterns in data. This can free up time for care providers to focus on more complex tasks, such as diagnosis and treatment of patients.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>New Product Development</head><p>With ML, current product offerings can be minutely scrutinized and weaknesses identified. Using this information, new products will be optimized for enhanced outcomes and longevity. Early adopters of AI have already begun to use similar pathways to improve medical devices. <ref type="bibr" target="#b7">8</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Improved Decision Making</head><p>Through analysis of Big Data, decision making will occur at ever increasing speeds and with greater accuracy. Current clinical decision making is based on medical knowledge, collaboration, and physician experience, and while this is generally effective, it is comparatively slow and physician dependent. Plus, the burden of information overload, from the EHR and on-going research endeavors, will be relieved and allow physicians to remain focused on the patient. AI will allow institutional, national, and global collaboration and the analysis of these increasingly complex and diverse datasets will foster improved clinical decision making on an international scale.</p><p>Marketing AI assists in generating original content for article blog and social media posts. It allows for quick patient education to be generated with supportive material links.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Drug Development</head><p>With development of pharmaceutical drugs, utilization of ML-based techniques have allowed research develops to better evaluate and assess medication characteristics, including absorption, distribution, metabolism and excretion. Data that involve biological and chemical information, are utilized by ML models to help identify and predict molecular properties that can potentially be effective pharmacologically. <ref type="bibr" target="#b8">9</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Minimally Invasive Surgery</head><p>In recent years, minimally invasive surgery has become more common amongst surgeons, generally due to less blood loss and quicker recovery for patients. AI has allowed for surgical students and trainees to develop necessary motor skills. Sensors that utilize fine tactile stimuli, through processing data sensor input with the help of AI, through interpretation of tactile information. <ref type="bibr" target="#b9">10</ref> Large Language Models (LLMs) Large Language Models (LLMs) use AI algorithms to generate language that mimics language utilized by people. These models allow machines to answer questions or discuss like people conversing. Individuals can setup potential topics that they want addressed by AI, with LLMs creating texts in response to these suggested themes. <ref type="bibr" target="#b10">11</ref> In the clinical world, LLMs are becoming more and more integrated into various aspects of medical practice. For example, LLMs can be used as translators of medical terminology for patients, and therefore, allow patients to better understand clinical terms with their assistance in converting into daily language terms. <ref type="bibr" target="#b10">11</ref> This as a result, will further optimize patient care in allowing patients to better understand their treatment plans.</p><p>Documentation is another clinical aspect that LLMs will play a role in clinical medicine. For example, converting rough clinical documentation into accurate notation, can not only make clinical care more efficient, but also improve the quality provided by physicians by allowing them to spend more time with the patient, and less on note writing. 11</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pain Medicine Specific Applications Opioid Monitoring and Risk Reduction</head><p>Machine learning requires large repositories of data. Since the opioid epidemic, prescriptions monitoring is gathering extensive data. Hospitals, ambulatory surgical centers and outpatient clinics generate patient data from admission to discharge which are stored in EHR. AI can utilize this data to recognize patterns, creating labels and decipher them. For example, in patients at risk for opioid use or misuse, AI can identify settings where opioid medication management would be appropriate and other setting where it would be inappropriate. PDMP (Physician Drug Monitoring Portal) is a state specific monitoring portal collecting opioid use data. It monitors opioid use but additionally measures stimulant, buprenorphine, and sedative use. Through this portal machine learning could extract features identifying areas to direct safe opioid prescribing or identify risk factors ultimately helping reduce risk. Other algorithms could extract opioid overdose admissions from hospitals, emergency rooms, and intensive care units to identify patterns and trends unearthing unidentified connections and aiding future prevention. Any voids in opioid knowledge, its effects on sleep and function, its functional impact and opioid effects on comorbidities could be recognized with AI.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accessibility and Outcome Optimization</head><p>Pain psychology is a promising area for implementing AI. Many chronic pain patients have associated anxiety and depression where pain psychologists reduce pain intensity by controlling these psychiatric comorbidities. However, pain psychologists are limited and AI could supplement or supplant these needs. Through machine learning AI could understand individual pain and mood variations. Common behavioral algorithms could be preset with machine learning calibrating for individual pain and mood needs. For example, AI could help create personalized psychological treatment approaches, such as improving cognitive behavioral therapy for chronic pain by identifying patterns in a patient's behavior and generating personalized CBT worksheets.</p><p>Additionally, self-learning and reinforced learning outside of supervised learning could be facilitated by AI without the need for physical supervision by a pain psychologist.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Neuromodulation Device Optimization Stimulation Optimization for Mood</head><p>Anxiety and depression are common in patients with chronic pain. Pain causes mood fluctuation where controlling these symptoms is paramount to controlling pain. Spinal cord stimulation (SCS) has been helpful in controlling affective symptoms. The positive effect of burst stimulation on mood and affective disorders was successfully demonstrated with the SUNBURST randomized controlled trial by Deer et al. <ref type="bibr" target="#b11">12</ref> Studies show lower depression scores in patients responding to SCS. <ref type="bibr" target="#b12">13</ref> AI could build on current understanding of SCS effect on mood through machine learning. A continual feedback analysis loop from dorsal column signals through device calibration could be a starting point for machine learning. AI functionality such as chatbots, mimicking human conversation, can be synched with SCS devices to collect data for machine learning. Validated scales such as Minnesota Multiphasic Personality Inventory (MMPI) can be used as baseline parameters to extract mood-related data from various situations and through AI learning adjusting stimulation parameters accordingly.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stimulation Optimization for Parameters</head><p>SCS has evolved with varying frequency settings to optimize pain reduction. Device companies claim superiority with high-frequency stimulation, burst stimulation, and differential targeted multiplex stimulation to traditional tonic stimulation or other settings. <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref> Each claim could be calibrated with machine learning identifying patterns through subjective pain reduction responses, functional improvement, evoked compound action potentials (ECAP) changes, mood and behavioral improvements etc. Machine learning could reduce variability in currently touted stimulation settings selecting superior patterns of stimulation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stimulation Optimization for Treatment Tolerance</head><p>Treatment tolerance leads to eventual SCS failure where SCS implants succeed initially but fail later. AI could identify neuron activation changes over time ultimately changing stimulation parameters to maintain efficacy over longer periods. <ref type="bibr" target="#b16">17</ref> Sensors could pick activity and pain variations through periodic AI chatbot inquiries from measuring neuronal activity during sleep to activities of daily living, such as self-care, dressing, bathing, low impact, high impact and exertional activities. Others measurements including sleep behavior, physiologic changes in blood pressure, heart rate with activity levels, and respiratory changes with increase in patient anxiety could be measured. Sensors could extract functional and pain data to work with cloud-based or remote monitoring services. Adaptive SCS devices could create patient specific stimulator device adjustment knowing pain perception and response is unique to each individual.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Addressing Lead Migration</head><p>On the technical side, there are flaws with current SCS devices. A common cause of SCS failure is lead migration where as many as 2-27% of leads migrate and cause loss of efficacy. <ref type="bibr" target="#b17">18</ref> AI devices with sensors on simulator leads could calibrate final lead placement on dorsal columns and provide early detection of deviations from baseline to identify lead migration. AI learning could alert individuals of technical device flaws causing therapy failure as opposed to stimulation failure. <ref type="bibr" target="#b18">19</ref> This valuable information could be rectified through lead placement correction as opposed to aberrantly claiming treatment failure leading to unnecessary invasive treatments such as spinal surgery. Similarly lead fractures, electrode disconnection or other technical failures could be identified and rectified sooner through AI recognition and feedback.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Addressing Energy and Charge Distribution</head><p>Other technical concerns are SCS battery durability to optimize energy conservation and favorable charge distribution to avoid early battery failure. AI could learn how settings affect energy conservation and charge distribution. Most SCS devices have battery durability of 5-7 years. <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21</ref> Some devices such as high-frequency stimulation need a battery replacement sooner. Machine learning devices can adjust stimulation to activity needs where a need-based function can turn stimulator device off during quiescent periods. Energy conservation could be compromised on paddle or percutaneous leads. SCS paddle leads are flat covering a wider surface whereas percutaneous leads are cylindrical. Paddle leads are theorized to function better due to favorable energy distribution. <ref type="bibr" target="#b21">22</ref> Machine learning can compare charge distribution verifying if lead structure influences efficiency. Lead structure can be modified to select an efficient lead layout to improve pain control and energy optimization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Image Optimization</head><p>AI could optimize pain procedure images. Fluoroscopy machines incorporated with AI can glean imaging information from data deciphering dye spread to optimize precision into injection technique. Currently, AI is used in radiology to discriminate benign and malignant tumors through pattern recognition. <ref type="bibr" target="#b22">23</ref> Elsewhere, it is used to monitor for disease progression through serial image evaluations. Applying this to a pain concept, for example, studies show SI joint injections performed by interventional pain physicians have suboptimal dye spread in two-thirds of sacroiliac joint injection cases. <ref type="bibr" target="#b23">24</ref> AI capable fluoroscopy machines could differentiate optimal from suboptimal images through machine learning and recommend improved physician technique and precision. AI pattern recognition could identify optimal zones for needle advancement and trajectory. This could similarly be applied to epidural injections and other highvolume procedures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Improve Decision Making</head><p>Clinical research requires time, resource, and manpower to change existing knowledge with new information. A substitute able to facilitate research studies without straining resources could be transformative. AI ability to do structured or unstructured research or both using algorithms to address specific research problems (structured) or to answer multiple questions (unstructured) can accelerate pain research. Machine learning can modify current diagnostic and treatment approaches through pattern recognition by analyzing large data. One avenue would be national registries common in specialties such as oncology. Large registries are data mines where AI can be implemented. The Surveillance Epidemiology, and End Results (SEER) national registry run by the national cancer institute reports patient hospital information to a national database. <ref type="bibr" target="#b24">25</ref> A similar pain registry can extract patterns from pain data providing clues for a myriad of questions. However, data is raw and preset unmonitored algorithms can create a data set shift. <ref type="bibr" target="#b25">26</ref> Data set shift is a deviation of machine learning from the original constructed objective. Monitoring for errors and recalibration towards original objective is important for AI run devices. Period algorithm adjustments will enhance new learning helping extract relevant information.</p><p>The complexity of pain processing in the brain is well known where multiple areas of the cortical and subcortical surface are involved. Deciphering this complex processing has been challenging and neuroimaging biomarkers such as functional MRI have attempted to make sense to aid pain diagnosis, prognosis and identifying targets for interventions and responders to therapy. With advancements in AI, big data interpretation could yield new neuroimaging markers for the brain and spinal cord for chronic pain. Deep learning through biomarker interpretation could helping identify individuals at risk of developing, progressing or exacerbating a painful condition and predict those able to respond to treatments, such as medications, injections and stimulation. <ref type="bibr" target="#b26">27</ref> AI is adaptive and an iterative process allowing measurement in real time. Its continuous machine learning can measure research outcomes continually, unlike fragmented investigator monitored measurements at 6-month, 1-year, and 2-year intervals. New treatment success will be identified sooner using data and algorithms improving patient outcome and reducing financial cost. Furthermore, Food and Drug Administration approval may mean satisfying the litmus test of success through AI testing. Similarly with cost involved in development, production, marketing and selling, devices may need to validate their claims and integrate AI involvement into their product development to benefit the company and patient.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The Future Pain Medicine Clinic</head><p>A potential workflow of a future pain medicine clinic is provided in Figure <ref type="figure" target="#fig_0">1</ref>. This is hypothetical at this point, but platforms are being created to more seamlessly provide efficient healthcare and improve outcomes. This potential workflow highlights those aspects.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Challenges</head><p>Machine learning and deep learning occur with large data. In social media websites, millions of users generate big data from multiple sources every hour. Through pattern recognition, trends and new directions for movement are identified with curated information provided to individual users. For SCS, data from external stimuli and social interaction can calibrate a device for individual users. However, unlike computers and phones, available to billions, SCS device prevalence is limited. At best thousands of spinal cord stimulator implants are implanted nationally. Individual stimulator data could be enhanced if a central monitoring device collectively gathers information from other stimulator devices. However, sensitive patient information with collected data could be a breach of privacy. A central device could violate patient confidentiality and privacy rights needing permission before implementing. The Health Insurance Portability and Accountability Act (HIPAA) laws from the 1996 US federal legislation defined these standards and will appraise any incorporation of AI technology. <ref type="bibr" target="#b27">28</ref> Information transfer would need to be encrypted from the source point to the final point, including security audits and access control. Responsible use of AI in pain medicine means ensuring that existing pain diagnosis and treatment disparities falling along racial, ethnic, and gender lines are not further exacerbated. <ref type="bibr" target="#b28">29</ref> AI data conclusions could be disruptive where industry collaboration would mean boldness risking device failure and potential emergence of superior devices. Measuring stimulation differences between devices could mean overriding proprietary claims of each stimulator device. If comparison between companies is challenging comparison within company devices should be feasible such as comparing device stimulation parameters to traditional tonic stimulation. Most systems can revert to traditional stimulation if burst or high-frequency stimulation fails. AI features including pattern recognition, feature extraction and dimensionality reduction can compare settings to extrapolate success or failure of new devices settings to other devices or its own. Pain and function are common end points to measure. Objective measures, such as function, are easier to measure whereas subjective measures, such as pain, can be challenging. For example, function impairments are common in Parkinson's patient with tremor and rigidity. These patients are unable to initiate and maintain steady movements. AI and machine learning could correct and calibrate device function to improve normal movement. On the contrary, pain is difficult to calibrate and objectifying pain has been futile. In 1996 the American Pain Society attempted to objectify pain with the pain scale. <ref type="bibr" target="#b29">30</ref> However, the multi-dimensionality of pain, its various pathways, and models of pain processing unclear, a pain scale alone is rudimentary where multiple variables will help construct algorithms for the pain experience. Next pattern generation would create new layers of machine learning improving pain understanding and device development. It is also likely data shift will occur in these scenarios involving multiple variables eventually needing recalibration through external input.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>AI has the potential to greatly enhance the field of healthcare by improving diagnostic accuracy, reducing workload on healthcare providers, reducing costs, and enabling personalized treatment plans. It accomplishes this by streamlining workflow, automating tasks, assisting with and treatment optimization, and reducing errors. However, there are also challenges that must be addressed, such as the need for robust ethical frameworks and the potential for AI to exacerbate existing healthcare inequities. As research and development in this area continues, it is important to carefully consider these issues and work towards solutions that can maximize the benefits of AI for patients and healthcare providers alike. Regardless, it is imperative that pain medicine physicians educate themselves on AI and ready their practices for clinical adoption.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc>Figure 1 Potential workflow of a future pain medicine clinic.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0">https://doi.org/10.2147/JPR.S429594 DovePress Journal of Pain Research 2024:17</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1">Powered by TCPDF (www.tcpdf.org)</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2">Journal of Pain Research 2024:17 https://doi.org/10.2147/JPR.S429594 DovePress</note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Funding</head><p>This research did not receive any in the specific grant from funding agencies public, commercial, or not-for-profit sectors.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abbreviations</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head><p>All authors made a significant contribution to the work reported, whether that is in the conception, study design, execution, acquisition of data, analysis and interpretation, or in all these areas; took part in drafting, revising or critically reviewing the article; gave final approval of the version to be published; have agreed on the journal to which the article has been submitted; and agree to be accountable for all aspects of the work. </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in medicine</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hamet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tremblay</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.metabol.2017.01.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Metabolism</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="S36" to="S40" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence and orthopaedics: an introduction for clinicians</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Ramkumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Ricciardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Urish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kipper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ketonis</surname></persName>
+		</author>
+		<idno type="DOI">10.2106/JBJS.19.01128</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Am</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="830" to="840" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Using machine learning to study the effect of medication adherence in Opioid Use Disorder</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Warren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Marashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Siddiqui</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0278988</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">e0278988</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Fusing randomized trials with big data: the key to self-learning health care systems?</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Angus</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2015.7762</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">314</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="767" to="768" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Adaptive platform trials: definition, design, conduct and reporting considerations</title>
+		<idno type="DOI">10.1038/s41573-019-0034-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Drug Discov</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="797" to="807" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">US health care spending by payer and health condition</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Dieleman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chapin</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2020.0734</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">323</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="863" to="884" />
+			<date type="published" when="1996">1996-2016. 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">US health care from a global perspective: spending, use of services, prices, and health in 13 countries</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Squires</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Issue Brief</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Machine learning techniques for the optimization of joint replacements: application to a short-stem Hip implant</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Borgiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Martínez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Duda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Checa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tsuchiya</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0183755</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">e0183755</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The rise of artificial intelligence in healthcare applications</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Memarzadeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artificial Intelligence in Healthcare</title>
+		<imprint>
+			<biblScope unit="volume">2020</biblScope>
+			<biblScope unit="page" from="25" to="60" />
+			<publisher>Academic Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A novel dynamic-vision-based approach for tactile sensing applications</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">B</forename><surname>Naeini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Instrum Meas</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1881" to="1893" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The future landscape of large language models in medicine</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clusmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Kolbinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Muti</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s43856-023-00370-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Commun Med</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">141</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Success Using Neuromodulation With BURST (SUNBURST) Study: results from a prospective, randomized controlled trial using a novel burst waveform</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Deer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">V</forename><surname>Slavin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Amirdelfan</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/ner.12698</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuromodulation</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="56" to="66" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Evaluation of spinal cord stimulation on the symptoms of anxiety and depression and pain intensity in patients with failed back surgery syndrome</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Robb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Cooney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Mccrory</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11845-017-1565-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ir J Med Sci</title>
+		<imprint>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="767" to="771" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Novel 10-kHz High-frequency Therapy (HF10 Therapy) is superior to traditional low-frequency spinal cord stimulation for the treatment of chronic back and leg pain: the SENZA-RCT randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kapural</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Doust</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/ALN.0000000000000774</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anesthesiology</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="851" to="860" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Burst Spinal Cord Stimulation: a Clinical Review</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kirketeig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schultheis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zuidema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Deer</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/pm/pnz003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pain Med</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="S31" to="S40" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Twelve-Month results from multicenter, open-label, randomized controlled clinical trial comparing differential target multiplexed spinal cord stimulation and traditional spinal cord stimulation in subjects with chronic intractable back pain and leg pain</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fishman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cordner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Justiz</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/papr.13066</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pain Pract</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="912" to="923" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Complications of spinal cord stimulation, suggestions to improve outcome, and financial impact</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gupta</surname></persName>
+		</author>
+		<idno type="DOI">10.3171/spi.2006.5.3.191</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosurg Spine</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="191" to="203" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Teaching points: overview of spinal cord stimulation lead migration</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Esomonu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Hagedorn</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/pm/pnaa328</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pain Med</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="520" to="522" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Survival analysis of spinal cord stimulator explantation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Dougherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Woodroffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wilson</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/ner.13173</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuromodulation</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="61" to="67" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Clinical longevity of 106,462 rechargeable and primary cell spinal cord stimulators: real world study in the medicare population</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Deer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Pope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Falowski</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neurom.2022.04.046</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuromodulation</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="131" to="138" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A Survey on the choice of spinal cord stimulation parameters and implantable pulse generators and on reasons for explantation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Gill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Kohan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hasoon</surname></persName>
+		</author>
+		<idno type="DOI">10.52965/001c.39648</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Orthop Rev</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">39648</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Outcomes of percutaneous and paddle lead implantation for spinal cord stimulation: a comparative analysis of complications, reoperation rates, and health-care costs</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Babu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hazzard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/ner.12065</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuromodulation</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="26" to="27" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in radiology</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hosny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Parmar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Quackenbush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Aerts</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41568-018-0016-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Cancer</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="500" to="510" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Sources of sacroiliac region pain: insights gained from a study comparing standard intra-articular injection with a technique combining intra-and peri-articular injection</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Borowsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fagen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apmr.2008.06.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Phys Med Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2048" to="2056" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Practical guide to surgical data sets: Surveillance, Epidemiology, and End Results (SEER) Database</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Doll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rademaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Sosa</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jamasurg.2018.0501</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Surg</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="588" to="589" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The clinician and dataset shift in artificial intelligence</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Finlayson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Subbaswamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Singh</surname></persName>
+		</author>
+		<idno type="DOI">10.1056/NEJMc2104626</idno>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">385</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="283" to="286" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Neuroimaging-based pain biomarkers: definitions, clinical and research applications, and evaluation frameworks to achieve personalized pain medicine</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mackey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Greely</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Martucci</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/PR9.0000000000000762</idno>
+		<idno type="PMID">31579854</idno>
+		<idno type="PMCID">PMC6727999</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pain Rep</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">e762</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">HIPAA&apos;s impact on healthcare</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hellerstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Health Manag Technol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="10" to="12" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Diagnostic errors, health disparities, and artificial intelligence: a combination for health or harm?</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Ibrahim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Pronovost</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jamahealthforum.2021.2430</idno>
+		<idno type="PMID">36218658</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Health Forum</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">e212430</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Journal of Pain Research Dovepress Publish your work in this journal The Journal of Pain Research is an international, peer reviewed, open access, online journal that welcomes laboratory and clinical findings in the fields of pain research and the prevention and management of pain. Original research, reviews, symposium reports, hypothesis formation and commentaries are all considered for publication. The manuscript management system is completely online and includes a very quick and fair peer-review system, which is all easy to use</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sturgess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mills</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bja.2017.11.098</idno>
+		<ptr target="https://www.dovepress.com/journal-of-pain-research-journal" />
+	</analytic>
+	<monogr>
+		<title level="j">DovePress Journal of Pain Research</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">17</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>Br J Anaesth</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
