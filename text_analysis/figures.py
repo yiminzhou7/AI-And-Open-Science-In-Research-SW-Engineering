@@ -1,29 +1,24 @@
 import matplotlib.pyplot as plt
 
 
-def count_figures(grobid_results):
+def count_figures(xml):
     """
-    Count the number of figures from PDF files in the specified folder using Grobid.
+    Counts the number of figure elements in the provided XML document.
 
     INPUT:
-    - grobid_results(List): List of results of Grobid..
+    - xml (BeautifulSoup): The XML document parsed using BeautifulSoup.
 
     OUTPUT:
-    - List of number of figures per article.
+    - Number of figure elements found in the XML document.
     """
 
     # Verify that grobid_results is not empty
-    if not grobid_results:
-         return []
-    
-    fig_count = []
-    for result in grobid_results:
-        if result is not None:
-            # Find all <figure> elements within the XML document
-            figures = result.find_all('figure')
-            # Count the number of figures
-            fig_count.append(len(figures))            
-    return fig_count
+    if not xml:
+        return None
+    else:
+        # Find all <figure> elements within the XML document
+        figures = xml.find_all('figure')
+        return len(figures)
 
 
 def histogram(fig_count, output_path):
@@ -42,5 +37,4 @@ def histogram(fig_count, output_path):
     plt.title('Histogram of Number of Figures per Article')
     plt.grid(True)
     plt.savefig(output_path)
-    plt.show()
     print(f"Histogram saved as {output_path}")

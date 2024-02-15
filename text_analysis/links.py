@@ -1,30 +1,32 @@
 import re
 
-def extract_links(grobid_results):
+
+def extract_links(xml):
     """
-    Extract links from PDF files in the specified folder using Grobid.
+    Extracts links from an XML document obtained from Grobid processing.
 
     INPUT:
-    - grobid_results(List): List of results of Grobid..
+    - xml (BeautifulSoup): BeautifulSoup object representing the XML document.
 
     OUTPUT:
-    - List of lists containing links found in each paper.
+    - List of unique links found in the XML document.
+
     """
 
     # Verify that grobid_results is not empty
-    if not grobid_results:
-         return []
-    
-    list_links = []
-    for result in grobid_results:
-        if result is not None:
-            # Find all <ref> elements within the XML document
-            text = result.get_text(strip=True)
+    if not xml:
+        return []
+    else:
+        text = xml.get_text(strip=True)
+        # Define a regular expression pattern to match URLs
+        url_pattern = re.compile(r"http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*]|(?:%[0-9a-fA-F][0-9a-fA-F]))+")
+        # Find all matches of the URL pattern in the text
+        links = re.findall(url_pattern, text)
 
-            # Define a regular expression pattern to match URLs
-            url_pattern = re.compile(r"(?:(?:https?://|www\.)\S+|\(https?://\S+\))")
-            # Find all matches of the URL pattern in the text
-            links = re.findall(url_pattern, text)
-            list_links.append(links)
+        # Extract links from 'ptr' elements
+        ptr_elements = xml.find_all('ptr')
+        for ptr in ptr_elements:
+            links.append(ptr["target"])
     
-    return list_links
+    return list(set(links))
+

@@ -1,44 +1,64 @@
-from text_analysis.grobid import grobid_responses
-from text_analysis.abstract import extract_abstracts, process_abstracts, generate_word_cloud
-from text_analysis.figures import count_figures, histogram
-from text_analysis.links import extract_links
+import os
+import text_analysis.grobid as gb
+import text_analysis.abstract as ab
+import text_analysis.figures as fig
+import text_analysis.links as lk
 
 def main():
     # Input folder containing PDF files
     articles_folder = input('Enter articles folder: ')
-    # extract results in xml with Grobid
-    grobid_results = grobid_responses(articles_folder)
-    
 
-    # WORDCLOUD
-    # Extract abstracts from PDF files
-    raw_abstracts = extract_abstracts(grobid_results)
+    list_abstracts = []
+    count_figures = []
 
-    # Process the abstracts
-    final_abstracts = process_abstracts(raw_abstracts)
+    for filename in os.listdir(articles_folder):
+        if filename.endswith(".pdf"):
+            # EXTRACT XML USING GROBID 
+            pdf_path = os.path.join(articles_folder, filename)
+            print(f'Extracting XML from {filename}...')
+            xml = gb.grobid_xml(pdf_path)
+
+            # WORDCLOUD
+            print(f'Processing abstract from {filename}...')
+            raw_abstract = ab.extract_abstract(xml)
+            final_abstract = ab.process_abstract(raw_abstract)
+            list_abstracts.append(final_abstract)
+            
+            # NUMBER OF FIGURES PER PAPER
+            print(f'Counting figures from {filename}...')
+            figures = fig.count_figures(xml)
+            count_figures.append(figures)
+
+            # LINKS
+            print(f'Extracting links from {filename}...')
+            links = lk.extract_links(xml)
+            print(f'URLs from {filename}:')
+            for link in links:
+                print(link)
+        
+        print()
 
     # Convert all processed abstracts into a single text
-    combined_text = ' '.join(final_abstracts)
+    combined_text = ' '.join(list_abstracts)
 
     # Generate and save the word cloud
-    generate_word_cloud(combined_text, './results/wordcloud.png')
-    print('--------------------------------------------------------')
-
-    # -------------------------------------------------------------
-    # FIGURES
-    # count figures per article
-    figures = count_figures(grobid_results)
+    print("Generating wordcloud of abstracts...")
+    ab.generate_word_cloud(combined_text, './results/wordcloud.png')
+    
     # generate the histogram and save it
-    histogram(figures, './results/figures.png')
-    print('--------------------------------------------------------')
+    print("Generating histogram of figures...")
+    fig.histogram(count_figures, './results/figures.png')
+    
 
-    #---------------------------------------------------------------
-    # LINKS
-    list_links = extract_links(grobid_results)
-    for i, links in enumerate(list_links):
-        print(f'Paper {i}:')
-        print(links)
-        print('-------------------')
+
+
+
+
+
+
+
+
+
 
 if __name__ == "__main__":
     main()

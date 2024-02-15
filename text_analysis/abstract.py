@@ -4,51 +4,42 @@ import re
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import spacy
-# Descargar el modelo de lenguaje en inglés para spaCy
-import spacy.cli
-# spacy.cli.download("en_core_web_sm")  # descomentar si no lo tenemos descargado
 
 
-
-def extract_abstracts(grobid_results):
+def extract_abstract(xml):
     """
-    Extract abstract from PDF files in the specified folder using Grobid.
+    Extracts the abstract from an XML document obtained from Grobid processing.
 
     INPUT:
-    - grobid_results(List): List of results of Grobid.
+    - xml (BeautifulSoup): BeautifulSoup object representing the XML document.
 
     OUTPUT:
-    - List of abstracts extracted from the PDF files.
+    - Abstract text extracted from the XML document.
     """
 
     # Verify that grobid_results is not empty
-    if not grobid_results:
-         return []
-
-    # List to store the extracted abstracts
-    abstracts = []
-
-    for result in grobid_results:
-        if result is not None:
-            abstract = result.find('abstract').text.strip()
-            abstracts.append(abstract)
-    return abstracts
+    if not xml:
+        return None
+    else:
+        abstract = xml.find('abstract').text.strip()
+        return abstract
 
 
-
-def process_abstracts(abstracts):
+def process_abstract(abstract):
     """
-    Clean and process the abstracts.
+    Processes the given abstract text by converting it to lowercase, removing punctuation,
+    stopwords, and performing lemmatization.
 
-    INPUT: 
-    - abstracts (list of str): List of abstracts.
+    INPUT:
+    - abstract (str): The abstract text to be processed.
 
     OUTPUT:
-    - List of processed abstracts.
+    - Processed abstract text after applying the specified transformations.
     """
-
-    final_abstracts = []
-    for abstract in abstracts:
+    
+    if not abstract:
+        return None
+    else:
         abstract = abstract.lower()  # convert to lowercase
         abstract = re.sub(r'[^a-zA-Z\s]', '', abstract) # remove punctuation
         tokens = word_tokenize(abstract)  # tokenize the abstract
@@ -60,9 +51,8 @@ def process_abstracts(abstracts):
         nlp = spacy.load('en_core_web_sm', disable=['parser', 'ner'])
         doc = nlp(' '.join(filtered_abstract))
         final_abstract = ' '.join([token.lemma_ for token in doc])
-        final_abstracts.append(final_abstract)
     
-    return final_abstracts
+    return final_abstract
 
 
 def generate_word_cloud(text, output_path):
@@ -84,21 +74,5 @@ def generate_word_cloud(text, output_path):
     # Save the word cloud as a PNG file
     wordcloud.to_file(output_path)
 
-    # Show the saved file path
-    plt.show()
-
     print(f"Word cloud saved as {output_path}")
 
-
-# articles_folder = input('Enter articles folder: ')
-# grobid_results = grobid_responses(articles_folder)
-# raw_abstracts = extract_abstracts(grobid_results)
-
-# final_abstracts = process_abstracts(raw_abstracts)
-
-# # Convert all processed abstracts into a single text
-# combined_text = ' '.join(final_abstracts)
-# print(combined_text)
-
-
-# generate_word_cloud(combined_text, './results/wordcloud.png')
