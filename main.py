@@ -50,15 +50,5 @@ def main():
     fig.histogram(count_figures, './results/figures.png')
     
 
-
-
-
-
-
-
-
-
-
-
 if __name__ == "__main__":
     main()

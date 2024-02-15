@@ -32,6 +32,7 @@ def histogram(fig_count, output_path):
     article_indices = list(range(1, len(fig_count) + 1))  # Indices representing the articles
     plt.figure(figsize=(10, 6))
     plt.bar(article_indices, fig_count, color='blue')
+    plt.xticks(article_indices)
     plt.xlabel('Article')
     plt.ylabel('Number of Figures')
     plt.title('Histogram of Number of Figures per Article')

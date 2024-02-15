@@ -21,8 +21,11 @@ def extract_abstract(xml):
     if not xml:
         return None
     else:
-        abstract = xml.find('abstract').text.strip()
-        return abstract
+        abstract = xml.find('abstract')
+        if abstract:
+            return abstract.text.strip()
+        else:
+            return None
 
 
 def process_abstract(abstract):
