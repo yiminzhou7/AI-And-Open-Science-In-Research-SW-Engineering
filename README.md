@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10657570.svg)](https://doi.org/10.5281/zenodo.10657570)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10657570.svg)](https://doi.org/10.5281/zenodo.10657570) [![Documentation Status](https://readthedocs.org/projects/text-analysis/badge/?version=latest)](https://text-analysis.readthedocs.io/en/latest/?badge=latest)
 
 # AI-And-Open-Science-In-Research-SW-Engineering
 Repository for Artificial Intelligence and Open Science In Research Software Engineering deliverables
