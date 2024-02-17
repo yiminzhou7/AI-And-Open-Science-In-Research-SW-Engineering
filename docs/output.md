@@ -1,4 +1,5 @@
 The program generates the following outputs:
+
 - A wordcloud figure representing the processed abstracts from the papers.
 - A histogram figure representing the count of figures per article.
 - List of links extrated from the PDFs.
