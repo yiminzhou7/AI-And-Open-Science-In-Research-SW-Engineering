@@ -1,4 +1,4 @@
-# Execution instructions
+## Execution instructions
 1. Run the Docker server.
 2. Run Grobid on **localhost:8070**:
 
