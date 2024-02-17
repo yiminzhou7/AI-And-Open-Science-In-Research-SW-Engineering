@@ -55,18 +55,23 @@ To run this program you will need:
 
 
 ## Running examples
-The main program has been run with 10 PDFs (stored in the **papers** folder). A screenshot of the terminal is shown below. The terminall shows the URLs found in each paper.
+The main program has been run with 10 PDFs (stored in the **papers** folder). A screenshot of the terminal is shown below. The terminal shows the URLs found in each paper.
+<figure>
+  <img src="results/terminal.png" alt="Terminal" style="width:450px">
+  <figcaption><i>Figure 1. URLs from each paper.</i></figcaption>
+</figure>
+
 
 The wordcloud results of the abstracts and histogram of number of figures are shown below.
 <figure>
   <img src="results/wordcloud.png" alt="Wordcloud" style="width:450px">
-  <figcaption><i>Figure 1. Wordcloud generated from the abstracts text.</i></figcaption>
+  <figcaption><i>Figure 2. Wordcloud generated from the abstracts text.</i></figcaption>
 </figure>
 
 
 <figure>
   <img src="results/figures.png" alt="Histogram" style="width:470px">
-  <figcaption><i>Figure 2. Histogram of number of figures per paper.</i></figcaption>
+  <figcaption><i>Figure 3. Histogram of number of figures per paper.</i></figcaption>
 </figure>
 
 
