@@ -3,10 +3,8 @@ The program generates the following outputs: wordcloud, histogram, list of links
 ## Wordcloud
 The output file is saved in the "results" folder.
 
-<figure>
-  <img src="../results/wordcloud.png" alt="Wordcloud" style="width:450px">
-  <figcaption><i>Figure 1. Wordcloud generated from the abstracts text.</i></figcaption>
-</figure>
+.. image:: ../results/wordcloud.png
+ :width: 600
 
 
 ## Histogram
