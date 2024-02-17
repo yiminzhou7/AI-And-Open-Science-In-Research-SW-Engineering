@@ -2,5 +2,6 @@ site_name: Text Analysis Documentation
 nav:
   - Home: index.md
   - Install: install.md
+  - Usage: usage.md
 theme:
   name: readthedocs
