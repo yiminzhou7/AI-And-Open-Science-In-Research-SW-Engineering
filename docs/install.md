@@ -1,4 +1,4 @@
-# Installation instructions
+## Installation instructions
 1. Clone the repository from GitHub to your local machine:
 
     ```
