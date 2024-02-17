@@ -1,9 +1,9 @@
 ## Installation instructions
 1. Clone the repository from GitHub to your local machine:
 
-```
-git clone https://github.com/yiminzhou7/AI-And-Open-Science-In-Research-SW-Engineering.git
-```
+    ```
+    git clone https://github.com/yiminzhou7/AI-And-Open-Science-In-Research-SW-Engineering.git
+    ```
 
 2. Start the docker server
 3. Install Grobid
