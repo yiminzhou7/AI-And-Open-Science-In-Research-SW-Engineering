@@ -1,24 +1,6 @@
-The program generates the following outputs: wordcloud, histogram, list of links extracted from the PDFs.
+The program generates the following outputs:
+* A wordcloud figure representing the processed abstracts from the papers.
+* A histogram figure representing the count of figures per article.
+* List of links extrated from the PDFs.
 
-## Wordcloud
-The output file is saved in the "results" folder.
-
-.. image:: ../results/wordcloud.png
- :width: 600
-
-
-## Histogram
-The output file is saved in the "results" folder.
-
-<figure>
-  <img src="../results/figures.png" alt="Histogram" style="width:470px">
-  <figcaption><i>Figure 2. Histogram of number of figures per paper.</i></figcaption>
-</figure>
-
-
-## List of URLs
-The output is shown on the terminal.
-<figure>
-  <img src="../results/terminal.png" alt="Terminal" style="width:450px">
-  <figcaption><i>Figure 3. URLs from each paper.</i></figcaption>
-</figure>
+The two figures are saved in the "**results**" folder and the list of links is shown on the terminal after running the main program.
