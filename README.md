@@ -53,10 +53,23 @@ To run this program you will need:
     ```
     Once executed, the program will show on screen all the links it has found from the different papers. Additionally, it will create a wordcloud based on the abstracts and a histogram of number of figures per paper and save them in the "**results**" folder.
 
-   A screenshot of the terminal is shown below.
-
 
 ## Running examples
+The main program has been run with 10 PDFs (stored in the **papers** folder). A screenshot of the terminal is shown below. The terminall shows the URLs found in each paper.
+
+The wordcloud results of the abstracts and histogram of number of figures are shown below.
+<figure>
+  <img src="results/wordcloud.png" alt="Wordcloud" style="width:450px">
+  <figcaption><i>Figure 1. Wordcloud generated from the abstracts text.</i></figcaption>
+</figure>
+
+
+<figure>
+  <img src="results/figures.png" alt="Histogram" style="width:470px">
+  <figcaption><i>Figure 2. Histogram of number of figures per paper.</i></figcaption>
+</figure>
+
+
 
 
 ## Preferred citation
