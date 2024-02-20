@@ -1,5 +1,11 @@
+import sys
+import os
+
 import unittest
 from bs4 import BeautifulSoup
+
+root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(root_dir)
 
 import text_analysis.figures as fig
 import text_analysis.abstract as ab
@@ -70,6 +76,8 @@ class text_analysis_test(unittest.TestCase):
             print("Test test_url1 failed!")
 
 
+if __name__ == "__main__":
+    unittest.main()
 
 ## desde directorio raíz
 ## python -m unittest tests.testing
