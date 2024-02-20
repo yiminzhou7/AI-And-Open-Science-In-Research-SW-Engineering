@@ -45,7 +45,7 @@ To run this program you will need:
     ```
 4. Before running the main program, it is recommended to run the `testing.py` file found in the "**tests**" folder. For this purpose, go to the main directory ("Text-Analysis") and execute
     ```
-    python -m unittest tests.testing
+    python tests.testing.py
     ```
 5. After passing the tests, stay in the main directory and execute the **main** program
     ```
