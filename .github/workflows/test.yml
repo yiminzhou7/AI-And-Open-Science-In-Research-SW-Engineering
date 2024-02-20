@@ -25,7 +25,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Set PYTHONPATH
       run: |
-        echo "::set-env name=PYTHONPATH::${{ github.workspace }}"
+        echo "export PYTHONPATH=${{ github.workspace }}" >> $GITHUB_ENV
     - name: Install pytest
       run: |
         pip install pytest
