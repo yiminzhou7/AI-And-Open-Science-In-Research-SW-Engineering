@@ -30,13 +30,6 @@ jobs:
       run: |
         python3 -m pip install --upgrade pip
         pip install -r requirements.txt
-        git clone https://github.com/kermitt2/grobid_client_python
-        cd grobid_client_python
-        python3 setup.py install
-
-        cd ..
-
-        pip install -e .
         python tests/testing.py
     - name: Test with pytest
       run: |
