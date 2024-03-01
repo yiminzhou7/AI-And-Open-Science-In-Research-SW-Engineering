@@ -50,7 +50,7 @@ To run this program you will need:
     Install the dependencies from `requirements.txt` file:
    
     ```
-    pip -r install requirements.txt
+    pip install -r requirements.txt
     ```
     
 5. Before running the main program, it is recommended to run the `testing.py` file found in the "**tests**" folder. For this purpose, go to the main directory ("Text-Analysis") and execute
