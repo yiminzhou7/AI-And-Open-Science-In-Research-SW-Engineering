@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  grobid:
+    image: lfoppiano/grobid:0.7.2
+    ports:
+      - "8070:8070"
+  text_analysis:
+    build: .
+    volumes:
+      - ./results:/results
+    container_name: TextAnalysis_container
+    depends_on:
+      - grobid
+    network_mode: host
+    restart: on-failure
+
