@@ -7,10 +7,16 @@ docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.7.2
 
 You can check if Grobid is running properly by openning a web browser and visit the following URL: [http://localhost:8070](http://localhost:8070).
 
-Now, create a virtual environment with **conda**. Create a blanck virtual environment with a name in python 3.10 with this command:
+Now, create a virtual environment with **conda**. Create a blanck virtual environment with a name (in my case *text_analysis*) in python 3.10 with this command:
 
 ```
-docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.7.2
+conda create -n text_analysis python=3.10
+```
+
+Activate the environment.
+
+```
+conda activate text_analysis
 ```
 
 Then, install the dependencies from "requirements.txt" file with the command:
