@@ -27,6 +27,7 @@ To run this program you will need:
 
 
 ## Execution instructions
+### Conda
 1. Run the Docker server.
 2. Run Grobid on **localhost:8070**:
     ```
@@ -65,27 +66,51 @@ To run this program you will need:
     python main.py
     ```
 
-    Once executed, the program will show on screen all the links it has found from the different papers. Additionally, it will create a wordcloud based on the abstracts and a histogram of number of figures per paper and save them in the "**results**" folder.
+    Once executed, the program will save the results in the "**results**" folder:
+   - A figure of wordcloud saved as "wordcloud.png".
+   - A histogram saved as "figures.png".
+   - URLs of each paper saved as "links.txt".
 
+### Docker compose
+1. Start the Docker server.
+2. Stay in the main directory and execute: 
+
+    ```
+    docker-compose up --build
+    ```
+
+   In this case, docker-compose will run the tests ("tests/testing.py") before running the main program ("main.py").
+   If all tests are passed, then the main program will be executed, otherwise it stops.
+    
+   Once executed, the program will save the results in the "**results**" folder:
+   - A figure of wordcloud saved as "wordcloud.png".
+   - A histogram saved as "figures.png".
+   - URLs of each paper saved as "links.txt".
+
+4. Once the results have been obtained, execute
+
+    ```
+    docker-compose down
+    ```
 
 ## Running examples
-The main program has been run with 10 PDFs (stored in the **papers** folder). A screenshot of the terminal is shown below. The terminal shows the URLs found in each paper.
-<figure>
-  <img src="results/terminal.png" alt="Terminal" style="width:450px">
-  <figcaption><i>Figure 1. URLs from each paper.</i></figcaption>
-</figure>
+The main program has been run with 10 PDFs (stored in the **papers** folder). 
 
-
-The wordcloud results of the abstracts and histogram of number of figures are shown below.
+The wordcloud results of the abstracts, histogram of number of figures and the URLs found in each paper are shown below.
 <figure>
   <img src="results/wordcloud.png" alt="Wordcloud" style="width:450px">
-  <figcaption><i>Figure 2. Wordcloud generated from the abstracts text.</i></figcaption>
+  <figcaption><i>Figure 1. Wordcloud generated from the abstracts text.</i></figcaption>
 </figure>
 
 
 <figure>
   <img src="results/figures.png" alt="Histogram" style="width:470px">
-  <figcaption><i>Figure 3. Histogram of number of figures per paper.</i></figcaption>
+  <figcaption><i>Figure 2. Histogram of number of figures per paper.</i></figcaption>
+</figure>
+
+<figure>
+  <img src="results/links" alt="Histogram" style="width:470px">
+  <figcaption><i>Figure 3. URLs of each paper.</i></figcaption>
 </figure>
 
 
