@@ -22,7 +22,7 @@ conda activate text_analysis
 Then, install the dependencies from "requirements.txt" file with the command:
 
 ```
-pip -r install requirements.txt
+pip install -r requirements.txt
 ```
 
     
