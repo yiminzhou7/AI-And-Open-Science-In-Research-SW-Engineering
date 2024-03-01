@@ -30,7 +30,7 @@ Before running the main program, it is recommended to run the "testing.py" file 
 For this purpose, go to the main directory ("Text-Analysis") and execute
 
 ```
-python tests.testing.py
+python tests/testing.py
 ```
     
 After passing the tests, stay in the main directory and execute the **main** program:
