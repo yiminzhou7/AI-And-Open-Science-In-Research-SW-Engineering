@@ -13,15 +13,18 @@ To run this program you will need:
 
 
 ## Installation instructions
-1. Clone the repository from GitHub to your local machine:
-    ```
-    git clone https://github.com/yiminzhou7/Text-Analysis.git
-    ```
-2. Start the docker server
-3. Install Grobid
-    ```
-    docker pull lfoppiano/grobid:0.7.2
-    ```
+**Step 1:** Clone the repository from GitHub to your local machine:
+
+```
+git clone https://github.com/yiminzhou7/Text-Analysis.git
+```
+
+**Step 2:** Start the docker server
+**Step 3:** Install Grobid
+
+```
+docker pull lfoppiano/grobid:0.7.2
+```
 
 
 ## Execution instructions
@@ -72,10 +75,25 @@ Once executed, the program will save the results in the "**results**" folder:
 - A histogram saved as "figures.png".
 - URLs of each paper saved as "links.txt".
 
+**Step 8:** Once the results have been obtained, stop the container where it is running Grobid.
+
+To find out the CONTAINER_ID, execute:
+
+```
+docker container ps
+```
+
+Then, stop the container
+
+```
+docker container stop CONTAINER_ID
+```
+
+
 ### Docker compose
 **Step 1:** Start the Docker server.
 
-**Step 2:** Stay in the main directory ("Text-Analysis") and execute: 
+**Step 2:** Stay in the main directory ("Text-Analysis") and execute (*Note: make sure there are no programs using port 8070 because that's where Grobid will run*): 
 
 ```
 docker-compose up --build
