@@ -10,9 +10,7 @@ This project uses **Grobid**, a machine learning software, to extract structured
 To run this program you will need:
 * [Docker](https://docs.docker.com/engine/install/) which is a software that provides a convenient way to package, distribute and run applications as containers, ensuring consistency across different environments.
 * [Grobid](https://github.com/kermitt2/grobid) which is a machine learning-based toolkit for extracting information from documents in PDF format. To run Grobid using Docker, you can use the official Docker image available on **Docker Hub**:
-  ```
-  docker pull lfoppiano/grobid:0.7.2
-  ```
+
 
 ## Installation instructions
 1. Clone the repository from GitHub to your local machine:
