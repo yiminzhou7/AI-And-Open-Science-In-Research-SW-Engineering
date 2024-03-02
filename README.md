@@ -19,7 +19,8 @@ To run this program you will need:
 git clone https://github.com/yiminzhou7/Text-Analysis.git
 ```
 
-**Step 2:** Start the docker server
+**Step 2:** Start the docker server.
+
 **Step 3:** Install Grobid
 
 ```
