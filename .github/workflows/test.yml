@@ -3,10 +3,10 @@
 
 name: Python application
 
-on: [release]
+on: [push, pull_request]
 
 jobs:
-  build:
+  test:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
@@ -15,22 +15,17 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v4
       with:
         python-version: ${{ matrix.python-version }}
-    - name: Set PYTHONPATH
-      run: |
-        echo "export PYTHONPATH=${{ github.workspace }}" >> $GITHUB_ENV
-    - name: Install pytest
-      run: |
-        pip install pytest
+        
     - name: Install dependencies
       run: |
-        python3 -m pip install --upgrade pip
+        python -m pip install --upgrade pip
         pip install -r requirements.txt
-        pip install -e .
-        python tests/testing.py
-    - name: Test with pytest
+        
+    - name: Test tests
       run: |
-        pytest
+        pytest tests/testing.py
