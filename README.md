@@ -27,71 +27,77 @@ To run this program you will need:
 
 
 ## Execution instructions
+
 ### Conda
-1. Run the Docker server.
-2. Run Grobid on **localhost:8070**:
-    ```
-    docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.7.2
-    ```
-    You can check if Grobid is running properly by openning a web browser and visit the following URL: [http://localhost:8070](http://localhost:8070).
-3. Create a virtual environment with [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html): 
+**Step 1:** Start the Docker server.
 
-    Create a blanck virtual environment with a name in python 3.10
-   
-    ```
-    conda create -n text_analysis python=3.10
-    ```
+**Step 2:** Run Grobid on **localhost:8070**:
 
-    Activate the environment.
+```
+docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.7.2
+```
 
-    ```
-    conda activate text_analysis
-    ```
+You can check if Grobid is running properly by openning a web browser and visit the following URL: [http://localhost:8070](http://localhost:8070).
+
+**Step 3:** Create a blank virtual environment with [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) with a name in python 3.10
+
+```
+conda create -n text_analysis python=3.10
+```
+
+**Step 4:** Activate the environment.
+
+```
+conda activate text_analysis
+```
+
+**Step 5:** Install the dependencies from `requirements.txt` file:
+
+```
+pip install -r requirements.txt
+```
+
+**Step 6:** Before running the main program, it is recommended to run the `testing.py` file found in the "**tests**" folder. For this purpose, stay in the main directory ("Text-Analysis") and execute
+
+```
+python tests/testing.py
+```
     
-    Install the dependencies from `requirements.txt` file:
-   
-    ```
-    pip install -r requirements.txt
-    ```
-    
-5. Before running the main program, it is recommended to run the `testing.py` file found in the "**tests**" folder. For this purpose, go to the main directory ("Text-Analysis") and execute
+**Step 7:** After passing the tests, stay in the main directory and execute the **main** program
 
-    ```
-    python tests/testing.py
-    ```
-    
-6. After passing the tests, stay in the main directory and execute the **main** program
+```
+python main.py
+```
 
-    ```
-    python main.py
-    ```
-
-    Once executed, the program will save the results in the "**results**" folder:
-   - A figure of wordcloud saved as "wordcloud.png".
-   - A histogram saved as "figures.png".
-   - URLs of each paper saved as "links.txt".
+Once executed, the program will save the results in the "**results**" folder:
+- A figure of wordcloud saved as "wordcloud.png".
+- A histogram saved as "figures.png".
+- URLs of each paper saved as "links.txt".
 
 ### Docker compose
-1. Start the Docker server.
-2. Stay in the main directory and execute: 
+**Step 1:** Start the Docker server.
 
-    ```
-    docker-compose up --build
-    ```
+**Step 2:** Stay in the main directory ("Text-Analysis") and execute: 
 
-   In this case, docker-compose will run the tests ("tests/testing.py") before running the main program ("main.py").
-   If all tests are passed, then the main program will be executed, otherwise it stops.
+```
+docker-compose up --build
+```
+
+In this case, docker-compose will run the tests ("tests/testing.py") before running the main program ("main.py").
+
+If all tests are passed, then the main program will be executed, otherwise it stops.
     
-   Once executed, the program will save the results in the "**results**" folder:
-   - A figure of wordcloud saved as "wordcloud.png".
-   - A histogram saved as "figures.png".
-   - URLs of each paper saved as "links.txt".
+Once executed, the program will save the results in the "**results**" folder:
+- A figure of wordcloud saved as "wordcloud.png".
+- A histogram saved as "figures.png".
+- URLs of each paper saved as "links.txt".
 
-4. Once the results have been obtained, execute
+**Step 4:** Once the results have been obtained, execute
 
-    ```
-    docker-compose down
-    ```
+```
+docker-compose down
+```
+
 
 ## Running examples
 The main program has been run with 10 PDFs (stored in the **papers** folder). 
