@@ -46,10 +46,25 @@ Once executed, the program will save the results in the "**results**" folder:
 - A histogram saved as "figures.png".
 - URLs of each paper saved as "links.txt".
 
+**Step 8:** Once the results have been obtained, stop the container where it is running Grobid.
+
+To find out the CONTAINER_ID, execute:
+
+```
+docker container ps
+```
+
+Then, stop the container
+
+```
+docker container stop CONTAINER_ID
+```
+
+
 ### Docker compose
 **Step 1:** Start the Docker server.
 
-**Step 2:** Stay in the main directory ("Text-Analysis") and execute: 
+**Step 2:** Stay in the main directory ("Text-Analysis") and execute (*Note: make sure there are no programs using port 8070 because that's where Grobid will run*):  
 
 ```
 docker-compose up --build
