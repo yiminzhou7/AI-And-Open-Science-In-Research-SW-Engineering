@@ -98,18 +98,19 @@ The main program has been run with 10 PDFs (stored in the **papers** folder).
 
 The wordcloud results of the abstracts, histogram of number of figures and the URLs found in each paper are shown below.
 <figure>
-  <img src="results/wordcloud.png" alt="Wordcloud" style="width:450px">
+  <img src="docs/wordcloud.png" alt="Wordcloud" style="width:450px">
   <figcaption><i>Figure 1. Wordcloud generated from the abstracts text.</i></figcaption>
 </figure>
 
 
 <figure>
-  <img src="results/figures.png" alt="Histogram" style="width:470px">
+  <img src="docs/figures.png" alt="Histogram" style="width:470px">
   <figcaption><i>Figure 2. Histogram of number of figures per paper.</i></figcaption>
 </figure>
 
+
 <figure>
-  <img src="results/links" alt="Histogram" style="width:470px">
+  <img src="docs/links.png" alt="Histogram" style="width:470px">
   <figcaption><i>Figure 3. URLs of each paper.</i></figcaption>
 </figure>
 
