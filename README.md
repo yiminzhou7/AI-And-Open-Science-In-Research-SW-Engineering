@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10657570.svg)](https://doi.org/10.5281/zenodo.10657570) [![Documentation Status](https://readthedocs.org/projects/text-analysis/badge/?version=latest)](https://text-analysis.readthedocs.io/en/latest/?badge=latest)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10761502.svg)](https://doi.org/10.5281/zenodo.10761502) [![Documentation Status](https://readthedocs.org/projects/text-analysis/badge/?version=latest)](https://text-analysis.readthedocs.io/en/latest/?badge=latest)
 
 # Text Analysis with Grobid
 
