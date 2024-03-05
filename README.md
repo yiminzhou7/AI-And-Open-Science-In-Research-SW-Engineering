@@ -55,7 +55,7 @@ conda create -n text_analysis python=3.10
 conda activate text_analysis
 ```
 
-**Step 5:** Install the dependencies from `requirements.txt` file:
+**Step 5:** Go to the main directory ("Text-Analysis") and install the dependencies from `requirements.txt` file:
 
 ```
 pip install -r requirements.txt
