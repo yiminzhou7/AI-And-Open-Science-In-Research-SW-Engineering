@@ -67,7 +67,7 @@ docker container stop CONTAINER_ID
 **Step 2:** Stay in the main directory ("Text-Analysis") and execute (*Note: make sure there are no programs using port 8070 because that's where Grobid will run*):  
 
 ```
-docker-compose up --build
+docker-compose up
 ```
 
 In this case, docker-compose will run the tests ("tests/testing.py") before running the main program ("main.py").
