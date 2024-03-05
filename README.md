@@ -5,6 +5,8 @@
 ## Description
 This project uses **Grobid**, a machine learning software, to extract structured metadata and content from documents in PDF format. The extracted information includes a word cloud with the keywords of the abstracts of the all documents, a bar chart showing the number of figures and the URLs that appear in each PDF document.
 
+*Note: There are already 10 PDFs in the repository. If you want to process your own PDFs, please save them in the "papers" folder.*
+
 ## Documentation
 You can find the documentation [here](https://text-analysis.readthedocs.io/en/latest/)
 
@@ -99,7 +101,7 @@ docker container stop CONTAINER_ID
 **Step 2:** Stay in the main directory ("Text-Analysis") and execute (*Note: make sure there are no programs using port 8070 because that's where Grobid will run*): 
 
 ```
-docker-compose up --build
+docker-compose up
 ```
 
 In this case, docker-compose will run the tests ("tests/testing.py") before running the main program ("main.py").
