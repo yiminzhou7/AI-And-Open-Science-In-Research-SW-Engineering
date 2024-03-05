@@ -42,8 +42,11 @@ python main.py
 ```
 
 Once executed, the program will save the results in the "**results**" folder:
+
 - A figure of wordcloud saved as "wordcloud.png".
+
 - A histogram saved as "figures.png".
+
 - URLs of each paper saved as "links.txt".
 
 **Step 8:** Once the results have been obtained, stop the container where it is running Grobid.
@@ -75,8 +78,11 @@ In this case, docker-compose will run the tests ("tests/testing.py") before runn
 If all tests are passed, then the main program will be executed, otherwise it stops.
     
 Once executed, the program will save the results in the "**results**" folder:
+
 - A figure of wordcloud saved as "wordcloud.png".
+
 - A histogram saved as "figures.png".
+
 - URLs of each paper saved as "links.txt".
 
 **Step 4:** Once the results have been obtained, execute
