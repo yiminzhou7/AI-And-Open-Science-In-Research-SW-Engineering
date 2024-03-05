@@ -43,7 +43,7 @@ docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.7.2
 
 You can check if Grobid is running properly by openning a web browser and visit the following URL: [http://localhost:8070](http://localhost:8070).
 
-**Step 3:** Create a blank virtual environment with [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) with a name in python 3.10
+**Step 3:** Open a new command line and create a blank virtual environment with [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) with a name in python 3.10
 
 ```
 conda create -n text_analysis python=3.10
